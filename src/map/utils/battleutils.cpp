@@ -1718,27 +1718,23 @@ int16 CalculateBaseTP(int32 delay)
     int16 x = 1;
     if (delay <= 180)
     {
-        x = (int16)(61 + ((delay - 180) * 63.0f) / 360);
+        x = (int16)(50 + ((delay - 180) * 15.0f) / 180);
     }
-    else if (delay <= 540)
+    else if (delay <= 450)
     {
-        x = (int16)(61 + ((delay - 180) * 88.0f) / 360);
+        x = (int16)(50 + ((delay - 180) * 65.0f) / 270);
     }
-    else if (delay <= 630)
+    else if (delay <= 480)
     {
-        x = (int16)(149 + ((delay - 540) * 20.0f) / 360);
+        x = (int16)(115 + ((delay - 450) * 15.0f) / 30);
     }
-    else if (delay <= 720)
+    else if (delay <= 530)
     {
-        x = (int16)(154 + ((delay - 630) * 28.0f) / 360);
-    }
-    else if (delay <= 900)
-    {
-        x = (int16)(161 + ((delay - 720) * 24.0f) / 360);
+        x = (int16)(130 + ((delay - 480) * 15.0f) / 30);
     }
     else
     {
-        x = (int16)(173 + ((delay - 900) * 28.0f) / 360);
+        x = (int16)(145 + ((delay - 530) * 35.0f) / 470);
     }
     return x;
 }

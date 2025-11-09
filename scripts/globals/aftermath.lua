@@ -40,7 +40,7 @@ xi.aftermath.effects =
     [10] = { mods = { xi.mod.STORETP, 7 }, duration = getTier1RelicDuration }, -- Amanomurakumo
     [11] = { mods = { xi.mod.ACC, 20 }, duration = getTier1RelicDuration }, -- Mjollnir
     [12] = { mods = { xi.mod.REFRESH, 8 }, duration = getTier1RelicDuration }, -- Claustrum
-    [13] = { mods = { xi.mod.RACC, 20 }, duration = getTier1RelicDuration }, -- Yoichinoyumi
+    [13] = { mods = { xi.mod.RECYCLE, 100 }, duration = getTier1RelicDuration }, -- Yoichinoyumi
     [14] = { mods = { xi.mod.ENMITY, -20 }, duration = getTier1RelicDuration }, -- Annihilator
 
     -----------------------------------

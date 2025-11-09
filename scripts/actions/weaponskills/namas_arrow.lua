@@ -22,6 +22,7 @@ weaponskillObject.onUseWeaponSkill = function(player, target, wsID, tp, primary,
     params.agi_wsc = 0.4
     params.overrideCE = 160
     params.overrideVE = 480
+    params.rangedAccuracyBonus = 100
 
     -- Apply aftermath
     xi.aftermath.addStatusEffect(player, tp, xi.slot.RANGED, xi.aftermath.type.RELIC)

@@ -931,15 +931,15 @@ uint16 CBattleEntity::ATT(SLOTTYPE slot)
     }
     else if (weapon && weapon->isTwoHanded()) // 2-handed weapon
     {
-        strMultiplier = 1.0;
+        strMultiplier = 0.7;
     }
     else if (weapon && weapon->isHandToHand()) // H2H Weapon
     {
-        strMultiplier = 0.75;
+        strMultiplier = 0.625;
     }
     else if (slot == SLOT_MAIN || slot == SLOT_RANGED || slot == SLOT_AMMO) // 1-handed weapon in main slot, Ranged or ammo weapon.
     {
-        strMultiplier = 1.0;
+        strMultiplier = .7;
     }
 
     if (settings::get<bool>("main.USE_PRE_2013_STR_MULTIPLIER"))
@@ -1003,7 +1003,7 @@ uint16 CBattleEntity::RATT(uint8 skill, uint16 bonusSkill)
 
     // make sure to not use fishing skill
     uint16 baseSkill = skill == SKILL_FISHING ? 0 : GetSkill(skill);
-    int32  RATT      = 8 + baseSkill + bonusSkill + m_modStat[Mod::RATT] + battleutils::GetRangedAttackBonuses(this) + STR();
+    int32  RATT      = 8 + baseSkill + bonusSkill + m_modStat[Mod::RATT] + battleutils::GetRangedAttackBonuses(this) + (STR() * .75);
     // use max to prevent any underflow
     return std::max(1, RATT + (RATT * m_modStat[Mod::RATTP] / 100) + std::min<int16>((RATT * m_modStat[Mod::FOOD_RATTP] / 100), m_modStat[Mod::FOOD_RATT_CAP]));
 }
@@ -1027,7 +1027,7 @@ uint16 CBattleEntity::RACC(uint8 skill, uint16 bonusSkill)
     }
     RACC += getMod(Mod::RACC);
     RACC += battleutils::GetRangedAccuracyBonuses(this);
-    RACC += (AGI() * 3) / 4;
+    RACC += AGI() / 2;
     // use max to prevent underflow
     return std::max(0, RACC + std::min<int16>(((100 + getMod(Mod::FOOD_RACCP) * RACC) / 100), getMod(Mod::FOOD_RACC_CAP)));
 }
@@ -1085,7 +1085,7 @@ uint16 CBattleEntity::ACC(uint8 attackNumber, uint16 offsetAccuracy)
         }
         int32 ACC           = GetSkill(skill) + iLvlSkill;
         ACC                 = (ACC > 200 ? (int16)(((ACC - 200) * 0.9) + 200) : ACC);
-        float dexMultiplier = settings::get<bool>("main.USE_PRE_2013_DEX_MULTIPLIER") ? 0.50f : 0.75f;
+        float dexMultiplier = .7; // settings::get<bool>("main.USE_PRE_2013_DEX_MULTIPLIER") ? 0.50f : 0.75f;
         if (auto* weapon = dynamic_cast<CItemWeapon*>(m_Weapons[SLOT_MAIN]); weapon && weapon->isTwoHanded())
         {
             ACC += (int16)(DEX() * dexMultiplier);
