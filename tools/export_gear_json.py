@@ -54,8 +54,8 @@ WEAPON_SKILLS = {
     45: "Handbell",
 }
 
-# Weapon skill IDs that are non-combat (fishing, pet food, animators, etc.)
-NON_COMBAT_WEAPON_SKILLS = {0, 48, 255}
+# Weapon skill IDs that are non-combat (fishing)
+NON_COMBAT_WEAPON_SKILLS = {48, 255}
 
 EQUIPMENT_TYPE = 6
 WEAPON_TYPE = 7
@@ -352,11 +352,26 @@ def has_combat_value(entry, weapon_info):
     is_weapon = 'dmg' in entry
     level = entry['level']
 
-    # Filter out non-combat weapon types (fishing, pet food, animators)
+    # Filter out non-combat weapon types (fishing rods/bait)
     if is_weapon:
         wpn = weapon_info.get(item_id)
         if wpn and wpn['skill'] in NON_COMBAT_WEAPON_SKILLS:
             return False
+        # Skill 0 contains a mix: grips/stat-ammo (combat) and pet food/jugs/
+        # automaton parts/soul trappers (non-combat). Filter the latter by traits:
+        #   - BST jugs: dmg > 200 (encodes pet ID)
+        #   - Pet food: delay 84-85, dmg 50-900
+        #   - Automaton oil: delay 84, dmg 527+
+        #   - Soul trappers/animators: Ranged slot, skill 0
+        if wpn and wpn['skill'] == 0:
+            slot = entry['slot']
+            dmg, delay = wpn['dmg'], wpn['delay']
+            if slot == 'Ranged':
+                return False  # animators, soul trappers
+            if dmg > 200:
+                return False  # BST jugs, automaton oil
+            if delay in (84, 85) and not mods:
+                return False  # pet food
 
     # Items with latents always have combat purpose
     if latents:

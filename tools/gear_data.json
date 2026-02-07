@@ -1,6 +1,6 @@
 {
-  "generated": "2026-02-07T19:04:15.145272+00:00",
-  "count": 6187,
+  "generated": "2026-02-07T20:45:36.540308+00:00",
+  "count": 6290,
   "items": [
     {
       "id": 10293,
@@ -112832,6 +112832,26 @@
       "weaponType": "Marksmanship"
     },
     {
+      "id": 17277,
+      "name": "Hedgehog Bomb",
+      "clientName": "Hedgehog Bomb",
+      "slot": "Ammo",
+      "level": 70,
+      "rare": false,
+      "exclusive": false,
+      "jobs": [
+        "All"
+      ],
+      "mods": {
+        "MP": 30,
+        "ENMITY": -1
+      },
+      "latents": [],
+      "dmg": 0,
+      "delay": 999,
+      "weaponType": "Skill0"
+    },
+    {
       "id": 17278,
       "name": "Gold Bullet",
       "clientName": "Gold Bullet",
@@ -130784,6 +130804,109 @@
       "weaponType": "Throwing"
     },
     {
+      "id": 18136,
+      "name": "Morion Tathlum",
+      "clientName": "Morion Tathlum",
+      "slot": "Ammo",
+      "level": 25,
+      "rare": false,
+      "exclusive": false,
+      "jobs": [
+        "All"
+      ],
+      "mods": {
+        "MP": 3,
+        "INT": 1
+      },
+      "latents": [],
+      "dmg": 0,
+      "delay": 999,
+      "weaponType": "Skill0"
+    },
+    {
+      "id": 18137,
+      "name": "Holy Ampulla",
+      "clientName": "Holy Ampulla",
+      "slot": "Ammo",
+      "level": 35,
+      "rare": false,
+      "exclusive": false,
+      "jobs": [
+        "MNK"
+      ],
+      "mods": {
+        "MP": 5,
+        "MND": 1
+      },
+      "latents": [],
+      "dmg": 0,
+      "delay": 999,
+      "weaponType": "Skill0"
+    },
+    {
+      "id": 18138,
+      "name": "Bailathorn",
+      "clientName": "Bailathorn",
+      "slot": "Ammo",
+      "level": 56,
+      "rare": false,
+      "exclusive": false,
+      "jobs": [
+        "SAM"
+      ],
+      "mods": {
+        "ACC": 3,
+        "RACC": 3
+      },
+      "latents": [],
+      "dmg": 0,
+      "delay": 999,
+      "weaponType": "Skill0"
+    },
+    {
+      "id": 18139,
+      "name": "Bomb Core",
+      "clientName": "Bomb Core",
+      "slot": "Ammo",
+      "level": 63,
+      "rare": false,
+      "exclusive": false,
+      "jobs": [
+        "RDM",
+        "PLD",
+        "SAM",
+        "GEO"
+      ],
+      "mods": {
+        "FIRE_MEVA": -6,
+        "ATT": 12
+      },
+      "latents": [],
+      "dmg": 0,
+      "delay": 999,
+      "weaponType": "Skill0"
+    },
+    {
+      "id": 18140,
+      "name": "Phantom Tathlum",
+      "clientName": "Phtm. Tathlum",
+      "slot": "Ammo",
+      "level": 66,
+      "rare": false,
+      "exclusive": false,
+      "jobs": [
+        "All"
+      ],
+      "mods": {
+        "MP": 10,
+        "INT": 2
+      },
+      "latents": [],
+      "dmg": 0,
+      "delay": 999,
+      "weaponType": "Skill0"
+    },
+    {
       "id": 18141,
       "name": "Ungur Boomerang",
       "clientName": "Ungur Boomerang",
@@ -131443,6 +131566,76 @@
       "weaponType": "Throwing"
     },
     {
+      "id": 18165,
+      "name": "Fenrirs Stone",
+      "clientName": "Fenrirs Stone",
+      "slot": "Ammo",
+      "level": 70,
+      "rare": true,
+      "exclusive": true,
+      "jobs": [
+        "All"
+      ],
+      "mods": {},
+      "latents": [
+        {
+          "mod": "HP",
+          "value": 30,
+          "latent": "TIME_OF_DAY",
+          "param": 0
+        },
+        {
+          "mod": "EVA",
+          "value": 10,
+          "latent": "TIME_OF_DAY",
+          "param": 1
+        }
+      ],
+      "dmg": 0,
+      "delay": 999,
+      "weaponType": "Skill0"
+    },
+    {
+      "id": 18166,
+      "name": "Happy Egg",
+      "clientName": "Happy Egg",
+      "slot": "Ammo",
+      "level": 1,
+      "rare": true,
+      "exclusive": true,
+      "jobs": [
+        "All"
+      ],
+      "mods": {
+        "HPP": 1,
+        "VIT": 1
+      },
+      "latents": [],
+      "dmg": 0,
+      "delay": 999,
+      "weaponType": "Skill0"
+    },
+    {
+      "id": 18167,
+      "name": "Fortune Egg",
+      "clientName": "Fortune Egg",
+      "slot": "Ammo",
+      "level": 1,
+      "rare": true,
+      "exclusive": true,
+      "jobs": [
+        "All"
+      ],
+      "mods": {
+        "MPP": 1,
+        "VIT": 1
+      },
+      "latents": [],
+      "dmg": 0,
+      "delay": 999,
+      "weaponType": "Skill0"
+    },
+    {
       "id": 18168,
       "name": "Imperial Egg",
       "clientName": "Imperial Egg",
@@ -131564,6 +131757,97 @@
       "weaponType": "Throwing"
     },
     {
+      "id": 18174,
+      "name": "Mantra Coin",
+      "clientName": "Mantra Coin",
+      "slot": "Ammo",
+      "level": 50,
+      "rare": true,
+      "exclusive": false,
+      "jobs": [
+        "MNK",
+        "WHM",
+        "BLM",
+        "DRG",
+        "SMN",
+        "DNC",
+        "SCH"
+      ],
+      "mods": {
+        "MP": 12
+      },
+      "latents": [],
+      "dmg": 0,
+      "delay": 999,
+      "weaponType": "Skill0"
+    },
+    {
+      "id": 18175,
+      "name": "Optical Needle",
+      "clientName": "Optical Needle",
+      "slot": "Ammo",
+      "level": 50,
+      "rare": true,
+      "exclusive": false,
+      "jobs": [
+        "All"
+      ],
+      "mods": {
+        "ACC": 1
+      },
+      "latents": [],
+      "dmg": 0,
+      "delay": 999,
+      "weaponType": "Skill0"
+    },
+    {
+      "id": 18176,
+      "name": "Nazar Bonjuk",
+      "clientName": "Nazar Bonjuk",
+      "slot": "Ammo",
+      "level": 50,
+      "rare": true,
+      "exclusive": false,
+      "jobs": [
+        "MNK",
+        "WHM",
+        "BST",
+        "DRG",
+        "COR",
+        "DNC",
+        "SCH"
+      ],
+      "mods": {
+        "INT": 1,
+        "MND": 1,
+        "CHR": 2
+      },
+      "latents": [],
+      "dmg": 0,
+      "delay": 999,
+      "weaponType": "Skill0"
+    },
+    {
+      "id": 18177,
+      "name": "Kakanpu",
+      "clientName": "Kakanpu",
+      "slot": "Ammo",
+      "level": 50,
+      "rare": true,
+      "exclusive": false,
+      "jobs": [
+        "NIN"
+      ],
+      "mods": {
+        "ATT": 2,
+        "DMGBREATH": -200
+      },
+      "latents": [],
+      "dmg": 0,
+      "delay": 999,
+      "weaponType": "Skill0"
+    },
+    {
       "id": 18178,
       "name": "Bodkin Arrow",
       "clientName": "Bodkin Arrow",
@@ -131588,6 +131872,28 @@
       "dmg": 28,
       "delay": 90,
       "weaponType": "Archery"
+    },
+    {
+      "id": 18180,
+      "name": "Goblin Grenade",
+      "clientName": "Goblin Grenade",
+      "slot": "Ammo",
+      "level": 55,
+      "rare": false,
+      "exclusive": false,
+      "jobs": [
+        "RDM",
+        "PLD",
+        "SAM",
+        "GEO"
+      ],
+      "mods": {
+        "STR": 1
+      },
+      "latents": [],
+      "dmg": 0,
+      "delay": 999,
+      "weaponType": "Skill0"
     },
     {
       "id": 18181,
@@ -132515,6 +132821,40 @@
       "weaponType": "GreatAxe"
     },
     {
+      "id": 18229,
+      "name": "Kilo Battery",
+      "clientName": "Kilo Battery",
+      "slot": "Ammo",
+      "level": 30,
+      "rare": false,
+      "exclusive": false,
+      "jobs": [
+        "All"
+      ],
+      "mods": {},
+      "latents": [],
+      "dmg": 50,
+      "delay": 1,
+      "weaponType": "Skill0"
+    },
+    {
+      "id": 18230,
+      "name": "Mega Battery",
+      "clientName": "Mega Battery",
+      "slot": "Ammo",
+      "level": 50,
+      "rare": false,
+      "exclusive": false,
+      "jobs": [
+        "All"
+      ],
+      "mods": {},
+      "latents": [],
+      "dmg": 75,
+      "delay": 1,
+      "weaponType": "Skill0"
+    },
+    {
       "id": 18231,
       "name": "Death Chakram",
       "clientName": "Death Chakram",
@@ -132530,6 +132870,40 @@
       "dmg": 28,
       "delay": 294,
       "weaponType": "Throwing"
+    },
+    {
+      "id": 18233,
+      "name": "Kilo Pump",
+      "clientName": "Kilo Pump",
+      "slot": "Ammo",
+      "level": 30,
+      "rare": false,
+      "exclusive": false,
+      "jobs": [
+        "All"
+      ],
+      "mods": {},
+      "latents": [],
+      "dmg": 50,
+      "delay": 2,
+      "weaponType": "Skill0"
+    },
+    {
+      "id": 18234,
+      "name": "Mega Pump",
+      "clientName": "Mega Pump",
+      "slot": "Ammo",
+      "level": 50,
+      "rare": false,
+      "exclusive": false,
+      "jobs": [
+        "All"
+      ],
+      "mods": {},
+      "latents": [],
+      "dmg": 75,
+      "delay": 2,
+      "weaponType": "Skill0"
     },
     {
       "id": 18235,
@@ -132549,6 +132923,142 @@
       "dmg": 57,
       "delay": 240,
       "weaponType": "Marksmanship"
+    },
+    {
+      "id": 18237,
+      "name": "Kilo Fan",
+      "clientName": "Kilo Fan",
+      "slot": "Ammo",
+      "level": 30,
+      "rare": false,
+      "exclusive": false,
+      "jobs": [
+        "All"
+      ],
+      "mods": {},
+      "latents": [],
+      "dmg": 50,
+      "delay": 3,
+      "weaponType": "Skill0"
+    },
+    {
+      "id": 18238,
+      "name": "Mega Fan",
+      "clientName": "Mega Fan",
+      "slot": "Ammo",
+      "level": 50,
+      "rare": false,
+      "exclusive": false,
+      "jobs": [
+        "All"
+      ],
+      "mods": {},
+      "latents": [],
+      "dmg": 75,
+      "delay": 3,
+      "weaponType": "Skill0"
+    },
+    {
+      "id": 18239,
+      "name": "Healing Feather",
+      "clientName": "Healing Feather",
+      "slot": "Ammo",
+      "level": 61,
+      "rare": true,
+      "exclusive": true,
+      "jobs": [
+        "MNK"
+      ],
+      "mods": {},
+      "latents": [],
+      "dmg": 0,
+      "delay": 999,
+      "weaponType": "Skill0"
+    },
+    {
+      "id": 18240,
+      "name": "Spirit Lantern",
+      "clientName": "Spirit Lantern",
+      "slot": "Ammo",
+      "level": 61,
+      "rare": true,
+      "exclusive": true,
+      "jobs": [
+        "WHM"
+      ],
+      "mods": {},
+      "latents": [],
+      "dmg": 0,
+      "delay": 999,
+      "weaponType": "Skill0"
+    },
+    {
+      "id": 18241,
+      "name": "Vial Of Refresh Musk",
+      "clientName": "Refresh Musk",
+      "slot": "Ammo",
+      "level": 61,
+      "rare": true,
+      "exclusive": true,
+      "jobs": [
+        "THF"
+      ],
+      "mods": {},
+      "latents": [],
+      "dmg": 0,
+      "delay": 999,
+      "weaponType": "Skill0"
+    },
+    {
+      "id": 18242,
+      "name": "Bag Of Wyvern Feed",
+      "clientName": "Wyvern Feed",
+      "slot": "Ammo",
+      "level": 61,
+      "rare": true,
+      "exclusive": true,
+      "jobs": [
+        "NIN"
+      ],
+      "mods": {},
+      "latents": [],
+      "dmg": 0,
+      "delay": 999,
+      "weaponType": "Skill0"
+    },
+    {
+      "id": 18243,
+      "name": "Astral Pot",
+      "clientName": "Astral Pot",
+      "slot": "Ammo",
+      "level": 61,
+      "rare": true,
+      "exclusive": true,
+      "jobs": [
+        "DRG"
+      ],
+      "mods": {},
+      "latents": [],
+      "dmg": 0,
+      "delay": 999,
+      "weaponType": "Skill0"
+    },
+    {
+      "id": 18244,
+      "name": "Virtue Stone",
+      "clientName": "Virtue Stone",
+      "slot": "Ammo",
+      "level": 73,
+      "rare": false,
+      "exclusive": true,
+      "jobs": [
+        "All"
+      ],
+      "mods": {},
+      "latents": [],
+      "dmg": 1,
+      "delay": 4,
+      "weaponType": "Skill0"
     },
     {
       "id": 18245,
@@ -132592,6 +133102,171 @@
       "weaponType": "Throwing"
     },
     {
+      "id": 18247,
+      "name": "Balm Sachet",
+      "clientName": "Balm Sachet",
+      "slot": "Ammo",
+      "level": 30,
+      "rare": true,
+      "exclusive": true,
+      "jobs": [
+        "All"
+      ],
+      "mods": {
+        "STR": 1,
+        "INT": 1,
+        "EQUIPMENT_ONLY_RACE": 1
+      },
+      "latents": [],
+      "dmg": 0,
+      "delay": 999,
+      "weaponType": "Skill0"
+    },
+    {
+      "id": 18248,
+      "name": "Millefleurs Sachet",
+      "clientName": "Mille. Sachet",
+      "slot": "Ammo",
+      "level": 30,
+      "rare": true,
+      "exclusive": true,
+      "jobs": [
+        "All"
+      ],
+      "mods": {
+        "STR": 1,
+        "INT": 1,
+        "EQUIPMENT_ONLY_RACE": 2
+      },
+      "latents": [],
+      "dmg": 0,
+      "delay": 999,
+      "weaponType": "Skill0"
+    },
+    {
+      "id": 18249,
+      "name": "Olibanum Sachet",
+      "clientName": "Olibanum Sachet",
+      "slot": "Ammo",
+      "level": 30,
+      "rare": true,
+      "exclusive": true,
+      "jobs": [
+        "All"
+      ],
+      "mods": {
+        "STR": 2,
+        "EQUIPMENT_ONLY_RACE": 4
+      },
+      "latents": [],
+      "dmg": 0,
+      "delay": 999,
+      "weaponType": "Skill0"
+    },
+    {
+      "id": 18250,
+      "name": "Attar Sachet",
+      "clientName": "Attar Sachet",
+      "slot": "Ammo",
+      "level": 30,
+      "rare": true,
+      "exclusive": true,
+      "jobs": [
+        "All"
+      ],
+      "mods": {
+        "STR": 2,
+        "EQUIPMENT_ONLY_RACE": 8
+      },
+      "latents": [],
+      "dmg": 0,
+      "delay": 999,
+      "weaponType": "Skill0"
+    },
+    {
+      "id": 18251,
+      "name": "Sweet Sachet",
+      "clientName": "Sweet Sachet",
+      "slot": "Ammo",
+      "level": 30,
+      "rare": true,
+      "exclusive": true,
+      "jobs": [
+        "All"
+      ],
+      "mods": {
+        "INT": 2,
+        "EQUIPMENT_ONLY_RACE": 48
+      },
+      "latents": [],
+      "dmg": 0,
+      "delay": 999,
+      "weaponType": "Skill0"
+    },
+    {
+      "id": 18252,
+      "name": "Civet Sachet",
+      "clientName": "Civet Sachet",
+      "slot": "Ammo",
+      "level": 30,
+      "rare": true,
+      "exclusive": true,
+      "jobs": [
+        "All"
+      ],
+      "mods": {
+        "DEX": 1,
+        "AGI": 1,
+        "EQUIPMENT_ONLY_RACE": 64
+      },
+      "latents": [],
+      "dmg": 0,
+      "delay": 999,
+      "weaponType": "Skill0"
+    },
+    {
+      "id": 18253,
+      "name": "Musk Sachet",
+      "clientName": "Musk Sachet",
+      "slot": "Ammo",
+      "level": 30,
+      "rare": true,
+      "exclusive": true,
+      "jobs": [
+        "All"
+      ],
+      "mods": {
+        "VIT": 2,
+        "EQUIPMENT_ONLY_RACE": 128
+      },
+      "latents": [],
+      "dmg": 0,
+      "delay": 999,
+      "weaponType": "Skill0"
+    },
+    {
+      "id": 18254,
+      "name": "Tiphia Sting",
+      "clientName": "Tiphia Sting",
+      "slot": "Ammo",
+      "level": 58,
+      "rare": true,
+      "exclusive": false,
+      "jobs": [
+        "All"
+      ],
+      "mods": {
+        "HP": -25,
+        "ATT": 2,
+        "ACC": 2,
+        "EVA": -4
+      },
+      "latents": [],
+      "dmg": 0,
+      "delay": 999,
+      "weaponType": "Skill0"
+    },
+    {
       "id": 18255,
       "name": "Heavy Shell",
       "clientName": "Heavy Shell",
@@ -132610,6 +133285,97 @@
       "dmg": 99,
       "delay": 360,
       "weaponType": "Marksmanship"
+    },
+    {
+      "id": 18256,
+      "name": "Orphic Egg",
+      "clientName": "Orphic Egg",
+      "slot": "Ammo",
+      "level": 1,
+      "rare": true,
+      "exclusive": true,
+      "jobs": [
+        "All"
+      ],
+      "mods": {
+        "SINGING": 1
+      },
+      "latents": [
+        {
+          "mod": "ATT",
+          "value": 1,
+          "latent": "SONG_ROLL_ACTIVE",
+          "param": 0
+        },
+        {
+          "mod": "ACC",
+          "value": 1,
+          "latent": "SONG_ROLL_ACTIVE",
+          "param": 0
+        },
+        {
+          "mod": "EVA",
+          "value": 1,
+          "latent": "SONG_ROLL_ACTIVE",
+          "param": 0
+        }
+      ],
+      "dmg": 0,
+      "delay": 999,
+      "weaponType": "Skill0"
+    },
+    {
+      "id": 18257,
+      "name": "Bibiki Seashell",
+      "clientName": "Bibiki Seashell",
+      "slot": "Ammo",
+      "level": 60,
+      "rare": true,
+      "exclusive": true,
+      "jobs": [
+        "All"
+      ],
+      "mods": {
+        "VIT": 4,
+        "WATER_MEVA": 3,
+        "AQUAN_KILLER": 2
+      },
+      "latents": [],
+      "dmg": 0,
+      "delay": 999,
+      "weaponType": "Skill0"
+    },
+    {
+      "id": 18258,
+      "name": "Throwing Tomahawk",
+      "clientName": "Thr. Tomahawk",
+      "slot": "Ammo",
+      "level": 75,
+      "rare": false,
+      "exclusive": false,
+      "jobs": [],
+      "mods": {},
+      "latents": [],
+      "dmg": 0,
+      "delay": 3,
+      "weaponType": "Skill0"
+    },
+    {
+      "id": 18259,
+      "name": "Angon",
+      "clientName": "Angon",
+      "slot": "Ammo",
+      "level": 75,
+      "rare": false,
+      "exclusive": false,
+      "jobs": [
+        "NIN"
+      ],
+      "mods": {},
+      "latents": [],
+      "dmg": 0,
+      "delay": 3,
+      "weaponType": "Skill0"
     },
     {
       "id": 18260,
@@ -138641,6 +139407,57 @@
       "weaponType": "Archery"
     },
     {
+      "id": 18689,
+      "name": "Volunteers Dart",
+      "clientName": "Volunteers Dart",
+      "slot": "Ammo",
+      "level": 50,
+      "rare": true,
+      "exclusive": true,
+      "jobs": [
+        "All"
+      ],
+      "mods": {},
+      "latents": [],
+      "dmg": 0,
+      "delay": 999,
+      "weaponType": "Skill0"
+    },
+    {
+      "id": 18690,
+      "name": "Mercenarys Dart",
+      "clientName": "Mercenarys Dart",
+      "slot": "Ammo",
+      "level": 50,
+      "rare": true,
+      "exclusive": true,
+      "jobs": [
+        "All"
+      ],
+      "mods": {},
+      "latents": [],
+      "dmg": 0,
+      "delay": 999,
+      "weaponType": "Skill0"
+    },
+    {
+      "id": 18691,
+      "name": "Imperial Dart",
+      "clientName": "Imperial Dart",
+      "slot": "Ammo",
+      "level": 50,
+      "rare": true,
+      "exclusive": true,
+      "jobs": [
+        "All"
+      ],
+      "mods": {},
+      "latents": [],
+      "dmg": 0,
+      "delay": 999,
+      "weaponType": "Skill0"
+    },
+    {
       "id": 18692,
       "name": "Mamoolbane",
       "clientName": "Mamoolbane",
@@ -138961,6 +139778,30 @@
       "dmg": 13,
       "delay": 270,
       "weaponType": "Marksmanship"
+    },
+    {
+      "id": 18707,
+      "name": "Fire Bomblet",
+      "clientName": "Fire Bomblet",
+      "slot": "Ammo",
+      "level": 70,
+      "rare": false,
+      "exclusive": false,
+      "jobs": [
+        "RDM",
+        "PLD",
+        "SAM",
+        "GEO"
+      ],
+      "mods": {
+        "FIRE_MEVA": -6,
+        "ATT": 6,
+        "ACC": 6
+      },
+      "latents": [],
+      "dmg": 0,
+      "delay": 999,
+      "weaponType": "Skill0"
     },
     {
       "id": 18708,
@@ -139388,6 +140229,58 @@
       "dmg": 30,
       "delay": 90,
       "weaponType": "Archery"
+    },
+    {
+      "id": 18734,
+      "name": "Sturms Report",
+      "clientName": "Sturms Report",
+      "slot": "Ammo",
+      "level": 60,
+      "rare": true,
+      "exclusive": true,
+      "jobs": [
+        "All"
+      ],
+      "mods": {
+        "MACC": 2
+      },
+      "latents": [
+        {
+          "mod": "MACC",
+          "value": 13,
+          "latent": "STATUS_EFFECT_ACTIVE",
+          "param": 267
+        }
+      ],
+      "dmg": 0,
+      "delay": 999,
+      "weaponType": "Skill0"
+    },
+    {
+      "id": 18735,
+      "name": "Sonias Plectrum",
+      "clientName": "Sonias Plectrum",
+      "slot": "Ammo",
+      "level": 60,
+      "rare": true,
+      "exclusive": true,
+      "jobs": [
+        "All"
+      ],
+      "mods": {
+        "WALTZ_POTENCY": 1
+      },
+      "latents": [
+        {
+          "mod": "WALTZ_POTENCY",
+          "value": 9,
+          "latent": "STATUS_EFFECT_ACTIVE",
+          "param": 267
+        }
+      ],
+      "dmg": 0,
+      "delay": 999,
+      "weaponType": "Skill0"
     },
     {
       "id": 18736,
@@ -142259,6 +143152,863 @@
       "weaponType": "H2H"
     },
     {
+      "id": 19009,
+      "name": "Brass Grip",
+      "clientName": "Brass Grip",
+      "slot": "Sub",
+      "level": 30,
+      "rare": false,
+      "exclusive": false,
+      "jobs": [
+        "All"
+      ],
+      "mods": {
+        "DEX": 1
+      },
+      "latents": [],
+      "dmg": 1,
+      "delay": 999,
+      "weaponType": "Skill0"
+    },
+    {
+      "id": 19010,
+      "name": "Brass Grip +1",
+      "clientName": "Brass Grip +1",
+      "slot": "Sub",
+      "level": 30,
+      "rare": false,
+      "exclusive": false,
+      "jobs": [
+        "All"
+      ],
+      "mods": {
+        "DEX": 2
+      },
+      "latents": [],
+      "dmg": 1,
+      "delay": 999,
+      "weaponType": "Skill0"
+    },
+    {
+      "id": 19011,
+      "name": "Lizard Leather Strap",
+      "clientName": "Lizard Strap",
+      "slot": "Sub",
+      "level": 30,
+      "rare": false,
+      "exclusive": false,
+      "jobs": [
+        "All"
+      ],
+      "mods": {
+        "HP": 5,
+        "MP": 5
+      },
+      "latents": [],
+      "dmg": 1,
+      "delay": 999,
+      "weaponType": "Skill0"
+    },
+    {
+      "id": 19012,
+      "name": "Lizard Leather Strap +1",
+      "clientName": "Lizard Strap +1",
+      "slot": "Sub",
+      "level": 30,
+      "rare": false,
+      "exclusive": false,
+      "jobs": [
+        "All"
+      ],
+      "mods": {
+        "HP": 10,
+        "MP": 10
+      },
+      "latents": [],
+      "dmg": 1,
+      "delay": 999,
+      "weaponType": "Skill0"
+    },
+    {
+      "id": 19013,
+      "name": "Mythril Grip",
+      "clientName": "Mythril Grip",
+      "slot": "Sub",
+      "level": 55,
+      "rare": false,
+      "exclusive": false,
+      "jobs": [
+        "All"
+      ],
+      "mods": {
+        "STR": 1,
+        "VIT": 1,
+        "ACC": 1
+      },
+      "latents": [],
+      "dmg": 1,
+      "delay": 999,
+      "weaponType": "Skill0"
+    },
+    {
+      "id": 19014,
+      "name": "Mythril Grip +1",
+      "clientName": "Mythril Grip +1",
+      "slot": "Sub",
+      "level": 55,
+      "rare": false,
+      "exclusive": false,
+      "jobs": [
+        "All"
+      ],
+      "mods": {
+        "STR": 2,
+        "VIT": 2,
+        "ACC": 2
+      },
+      "latents": [],
+      "dmg": 1,
+      "delay": 999,
+      "weaponType": "Skill0"
+    },
+    {
+      "id": 19015,
+      "name": "Raptor Leather Strap",
+      "clientName": "Raptor Strap",
+      "slot": "Sub",
+      "level": 55,
+      "rare": false,
+      "exclusive": false,
+      "jobs": [
+        "All"
+      ],
+      "mods": {
+        "HP": 10,
+        "MP": 5,
+        "MND": 1
+      },
+      "latents": [],
+      "dmg": 1,
+      "delay": 999,
+      "weaponType": "Skill0"
+    },
+    {
+      "id": 19016,
+      "name": "Raptor Leather Strap +1",
+      "clientName": "Raptor Strap +1",
+      "slot": "Sub",
+      "level": 55,
+      "rare": false,
+      "exclusive": false,
+      "jobs": [
+        "All"
+      ],
+      "mods": {
+        "HP": 15,
+        "MP": 10,
+        "MND": 2
+      },
+      "latents": [],
+      "dmg": 1,
+      "delay": 999,
+      "weaponType": "Skill0"
+    },
+    {
+      "id": 19017,
+      "name": "Bugard Leather Strap",
+      "clientName": "Bugard Strap",
+      "slot": "Sub",
+      "level": 60,
+      "rare": false,
+      "exclusive": false,
+      "jobs": [
+        "All"
+      ],
+      "mods": {
+        "MP": 5,
+        "MND": 1,
+        "CHR": 1
+      },
+      "latents": [],
+      "dmg": 1,
+      "delay": 999,
+      "weaponType": "Skill0"
+    },
+    {
+      "id": 19018,
+      "name": "Bugard Leather Strap +1",
+      "clientName": "Bugard Strap +1",
+      "slot": "Sub",
+      "level": 60,
+      "rare": false,
+      "exclusive": false,
+      "jobs": [
+        "All"
+      ],
+      "mods": {
+        "MP": 10,
+        "INT": 1,
+        "MND": 1,
+        "CHR": 1
+      },
+      "latents": [],
+      "dmg": 1,
+      "delay": 999,
+      "weaponType": "Skill0"
+    },
+    {
+      "id": 19019,
+      "name": "Platinum Grip",
+      "clientName": "Platinum Grip",
+      "slot": "Sub",
+      "level": 65,
+      "rare": false,
+      "exclusive": false,
+      "jobs": [
+        "All"
+      ],
+      "mods": {
+        "ACC": 2,
+        "ITEM_ADDEFFECT_TYPE": 2,
+        "ITEM_SUBEFFECT": 16,
+        "ITEM_ADDEFFECT_CHANCE": 10,
+        "ITEM_ADDEFFECT_STATUS": 10,
+        "ITEM_ADDEFFECT_POWER": 10,
+        "ITEM_ADDEFFECT_DURATION": 5
+      },
+      "latents": [],
+      "dmg": 1,
+      "delay": 999,
+      "weaponType": "Skill0"
+    },
+    {
+      "id": 19020,
+      "name": "Platinum Grip +1",
+      "clientName": "Platinum Grip +1",
+      "slot": "Sub",
+      "level": 65,
+      "rare": false,
+      "exclusive": false,
+      "jobs": [
+        "All"
+      ],
+      "mods": {
+        "ACC": 3,
+        "ITEM_ADDEFFECT_TYPE": 2,
+        "ITEM_SUBEFFECT": 16,
+        "ITEM_ADDEFFECT_CHANCE": 10,
+        "ITEM_ADDEFFECT_STATUS": 10,
+        "ITEM_ADDEFFECT_POWER": 10,
+        "ITEM_ADDEFFECT_DURATION": 5
+      },
+      "latents": [],
+      "dmg": 1,
+      "delay": 999,
+      "weaponType": "Skill0"
+    },
+    {
+      "id": 19021,
+      "name": "Katana Strap",
+      "clientName": "Katana Strap",
+      "slot": "Sub",
+      "level": 60,
+      "rare": false,
+      "exclusive": false,
+      "jobs": [
+        "All"
+      ],
+      "mods": {
+        "ZANSHIN": 3
+      },
+      "latents": [],
+      "dmg": 1,
+      "delay": 999,
+      "weaponType": "Skill0"
+    },
+    {
+      "id": 19022,
+      "name": "Axe Grip",
+      "clientName": "Axe Grip",
+      "slot": "Sub",
+      "level": 65,
+      "rare": false,
+      "exclusive": false,
+      "jobs": [
+        "All"
+      ],
+      "mods": {
+        "HP": 20,
+        "STR": 3
+      },
+      "latents": [],
+      "dmg": 1,
+      "delay": 999,
+      "weaponType": "Skill0"
+    },
+    {
+      "id": 19023,
+      "name": "Staff Strap",
+      "clientName": "Staff Strap",
+      "slot": "Sub",
+      "level": 65,
+      "rare": false,
+      "exclusive": false,
+      "jobs": [
+        "All"
+      ],
+      "mods": {
+        "MP": 20,
+        "ENMITY": -2
+      },
+      "latents": [],
+      "dmg": 1,
+      "delay": 999,
+      "weaponType": "Skill0"
+    },
+    {
+      "id": 19024,
+      "name": "Sword Strap",
+      "clientName": "Sword Strap",
+      "slot": "Sub",
+      "level": 55,
+      "rare": false,
+      "exclusive": false,
+      "jobs": [
+        "All"
+      ],
+      "mods": {
+        "DELAYP": -3
+      },
+      "latents": [],
+      "dmg": 1,
+      "delay": 999,
+      "weaponType": "Skill0"
+    },
+    {
+      "id": 19025,
+      "name": "Pole Grip",
+      "clientName": "Pole Grip",
+      "slot": "Sub",
+      "level": 60,
+      "rare": false,
+      "exclusive": false,
+      "jobs": [
+        "All"
+      ],
+      "mods": {
+        "DOUBLE_ATTACK": 2
+      },
+      "latents": [],
+      "dmg": 1,
+      "delay": 999,
+      "weaponType": "Skill0"
+    },
+    {
+      "id": 19026,
+      "name": "Spear Strap",
+      "clientName": "Spear Strap",
+      "slot": "Sub",
+      "level": 65,
+      "rare": false,
+      "exclusive": false,
+      "jobs": [
+        "All"
+      ],
+      "mods": {
+        "HP": 10,
+        "MP": 10,
+        "DEX": 3
+      },
+      "latents": [],
+      "dmg": 1,
+      "delay": 999,
+      "weaponType": "Skill0"
+    },
+    {
+      "id": 19027,
+      "name": "Claymore Grip",
+      "clientName": "Claymore Grip",
+      "slot": "Sub",
+      "level": 65,
+      "rare": false,
+      "exclusive": false,
+      "jobs": [
+        "All"
+      ],
+      "mods": {
+        "CRITHITRATE": 3
+      },
+      "latents": [],
+      "dmg": 1,
+      "delay": 999,
+      "weaponType": "Skill0"
+    },
+    {
+      "id": 19028,
+      "name": "Magic Strap",
+      "clientName": "Magic Strap",
+      "slot": "Sub",
+      "level": 69,
+      "rare": true,
+      "exclusive": true,
+      "jobs": [
+        "All"
+      ],
+      "mods": {
+        "MP": 23,
+        "SPELLINTERRUPT": 5
+      },
+      "latents": [],
+      "dmg": 1,
+      "delay": 999,
+      "weaponType": "Skill0"
+    },
+    {
+      "id": 19029,
+      "name": "Brave Grip",
+      "clientName": "Brave Grip",
+      "slot": "Sub",
+      "level": 72,
+      "rare": true,
+      "exclusive": false,
+      "jobs": [
+        "All"
+      ],
+      "mods": {
+        "CRIT_DMG_INCREASE": 3
+      },
+      "latents": [],
+      "dmg": 1,
+      "delay": 999,
+      "weaponType": "Skill0"
+    },
+    {
+      "id": 19030,
+      "name": "Wise Strap",
+      "clientName": "Wise Strap",
+      "slot": "Sub",
+      "level": 71,
+      "rare": true,
+      "exclusive": false,
+      "jobs": [
+        "All"
+      ],
+      "mods": {
+        "MAGIC_CRITHITRATE": 3
+      },
+      "latents": [],
+      "dmg": 1,
+      "delay": 999,
+      "weaponType": "Skill0"
+    },
+    {
+      "id": 19031,
+      "name": "Fire Grip",
+      "clientName": "Fire Grip",
+      "slot": "Sub",
+      "level": 70,
+      "rare": true,
+      "exclusive": false,
+      "jobs": [
+        "All"
+      ],
+      "mods": {
+        "CONVHPTOMP": 20,
+        "FIRE_MACC": 2
+      },
+      "latents": [],
+      "dmg": 1,
+      "delay": 999,
+      "weaponType": "Skill0"
+    },
+    {
+      "id": 19032,
+      "name": "Water Grip",
+      "clientName": "Water Grip",
+      "slot": "Sub",
+      "level": 70,
+      "rare": true,
+      "exclusive": false,
+      "jobs": [
+        "All"
+      ],
+      "mods": {
+        "CONVHPTOMP": 20,
+        "WATER_MACC": 2
+      },
+      "latents": [],
+      "dmg": 1,
+      "delay": 999,
+      "weaponType": "Skill0"
+    },
+    {
+      "id": 19033,
+      "name": "Wind Grip",
+      "clientName": "Wind Grip",
+      "slot": "Sub",
+      "level": 70,
+      "rare": true,
+      "exclusive": false,
+      "jobs": [
+        "All"
+      ],
+      "mods": {
+        "CONVHPTOMP": 20,
+        "WIND_MACC": 2
+      },
+      "latents": [],
+      "dmg": 1,
+      "delay": 999,
+      "weaponType": "Skill0"
+    },
+    {
+      "id": 19034,
+      "name": "Ice Grip",
+      "clientName": "Ice Grip",
+      "slot": "Sub",
+      "level": 70,
+      "rare": true,
+      "exclusive": false,
+      "jobs": [
+        "All"
+      ],
+      "mods": {
+        "CONVHPTOMP": 20,
+        "ICE_MACC": 2
+      },
+      "latents": [],
+      "dmg": 1,
+      "delay": 999,
+      "weaponType": "Skill0"
+    },
+    {
+      "id": 19035,
+      "name": "Thunder Grip",
+      "clientName": "Thunder Grip",
+      "slot": "Sub",
+      "level": 70,
+      "rare": true,
+      "exclusive": false,
+      "jobs": [
+        "All"
+      ],
+      "mods": {
+        "CONVHPTOMP": 20,
+        "THUNDER_MACC": 2
+      },
+      "latents": [],
+      "dmg": 1,
+      "delay": 999,
+      "weaponType": "Skill0"
+    },
+    {
+      "id": 19036,
+      "name": "Earth Grip",
+      "clientName": "Earth Grip",
+      "slot": "Sub",
+      "level": 70,
+      "rare": true,
+      "exclusive": false,
+      "jobs": [
+        "All"
+      ],
+      "mods": {
+        "CONVHPTOMP": 20,
+        "EARTH_MACC": 2
+      },
+      "latents": [],
+      "dmg": 1,
+      "delay": 999,
+      "weaponType": "Skill0"
+    },
+    {
+      "id": 19037,
+      "name": "Light Grip",
+      "clientName": "Light Grip",
+      "slot": "Sub",
+      "level": 70,
+      "rare": true,
+      "exclusive": false,
+      "jobs": [
+        "All"
+      ],
+      "mods": {
+        "CONVHPTOMP": 20,
+        "LIGHT_MACC": 2
+      },
+      "latents": [],
+      "dmg": 1,
+      "delay": 999,
+      "weaponType": "Skill0"
+    },
+    {
+      "id": 19038,
+      "name": "Dark Grip",
+      "clientName": "Dark Grip",
+      "slot": "Sub",
+      "level": 70,
+      "rare": true,
+      "exclusive": false,
+      "jobs": [
+        "All"
+      ],
+      "mods": {
+        "CONVHPTOMP": 20,
+        "DARK_MACC": 2
+      },
+      "latents": [],
+      "dmg": 1,
+      "delay": 999,
+      "weaponType": "Skill0"
+    },
+    {
+      "id": 19039,
+      "name": "Orca Strap",
+      "clientName": "Orca Strap",
+      "slot": "Sub",
+      "level": 50,
+      "rare": true,
+      "exclusive": false,
+      "jobs": [
+        "All"
+      ],
+      "mods": {
+        "ATT": 3
+      },
+      "latents": [],
+      "dmg": 1,
+      "delay": 999,
+      "weaponType": "Skill0"
+    },
+    {
+      "id": 19040,
+      "name": "Shark Strap",
+      "clientName": "Shark Strap",
+      "slot": "Sub",
+      "level": 69,
+      "rare": true,
+      "exclusive": false,
+      "jobs": [
+        "All"
+      ],
+      "mods": {
+        "HP": 10,
+        "ENMITY": 3
+      },
+      "latents": [],
+      "dmg": 1,
+      "delay": 999,
+      "weaponType": "Skill0"
+    },
+    {
+      "id": 19041,
+      "name": "Rose Strap",
+      "clientName": "Rose Strap",
+      "slot": "Sub",
+      "level": 60,
+      "rare": true,
+      "exclusive": true,
+      "jobs": [
+        "All"
+      ],
+      "mods": {
+        "STORETP": 4
+      },
+      "latents": [
+        {
+          "mod": "STORETP",
+          "value": 16,
+          "latent": "STATUS_EFFECT_ACTIVE",
+          "param": 267
+        }
+      ],
+      "dmg": 1,
+      "delay": 999,
+      "weaponType": "Skill0"
+    },
+    {
+      "id": 19042,
+      "name": "Ariesian Grip",
+      "clientName": "Ariesian Grip",
+      "slot": "Sub",
+      "level": 60,
+      "rare": true,
+      "exclusive": true,
+      "jobs": [
+        "All"
+      ],
+      "mods": {
+        "MPHEAL": 1
+      },
+      "latents": [
+        {
+          "mod": "MPHEAL",
+          "value": 19,
+          "latent": "STATUS_EFFECT_ACTIVE",
+          "param": 267
+        }
+      ],
+      "dmg": 1,
+      "delay": 999,
+      "weaponType": "Skill0"
+    },
+    {
+      "id": 19043,
+      "name": "Tenax Strap",
+      "clientName": "Tenax Strap",
+      "slot": "Sub",
+      "level": 5,
+      "rare": true,
+      "exclusive": false,
+      "jobs": [
+        "All"
+      ],
+      "mods": {
+        "ATT": 1
+      },
+      "latents": [],
+      "dmg": 1,
+      "delay": 999,
+      "weaponType": "Skill0"
+    },
+    {
+      "id": 19044,
+      "name": "Disciple Grip",
+      "clientName": "Disciple Grip",
+      "slot": "Sub",
+      "level": 15,
+      "rare": true,
+      "exclusive": false,
+      "jobs": [
+        "All"
+      ],
+      "mods": {
+        "ACC": 1
+      },
+      "latents": [],
+      "dmg": 1,
+      "delay": 999,
+      "weaponType": "Skill0"
+    },
+    {
+      "id": 19045,
+      "name": "Succubus Grip",
+      "clientName": "Succubus Grip",
+      "slot": "Sub",
+      "level": 19,
+      "rare": true,
+      "exclusive": false,
+      "jobs": [
+        "All"
+      ],
+      "mods": {
+        "MP": 8
+      },
+      "latents": [],
+      "dmg": 1,
+      "delay": 999,
+      "weaponType": "Skill0"
+    },
+    {
+      "id": 19046,
+      "name": "Reaver Grip",
+      "clientName": "Reaver Grip",
+      "slot": "Sub",
+      "level": 53,
+      "rare": false,
+      "exclusive": false,
+      "jobs": [
+        "All"
+      ],
+      "mods": {
+        "MP": 10,
+        "AGI": 1
+      },
+      "latents": [],
+      "dmg": 1,
+      "delay": 999,
+      "weaponType": "Skill0"
+    },
+    {
+      "id": 19047,
+      "name": "Reaver Grip +1",
+      "clientName": "Reaver Grip +1",
+      "slot": "Sub",
+      "level": 53,
+      "rare": false,
+      "exclusive": false,
+      "jobs": [
+        "All"
+      ],
+      "mods": {
+        "MP": 12,
+        "AGI": 2
+      },
+      "latents": [],
+      "dmg": 1,
+      "delay": 999,
+      "weaponType": "Skill0"
+    },
+    {
+      "id": 19048,
+      "name": "Reign Grip",
+      "clientName": "Reign Grip",
+      "slot": "Sub",
+      "level": 74,
+      "rare": true,
+      "exclusive": false,
+      "jobs": [
+        "All"
+      ],
+      "mods": {
+        "MND": 3,
+        "CHR": 3
+      },
+      "latents": [],
+      "dmg": 1,
+      "delay": 999,
+      "weaponType": "Skill0"
+    },
+    {
+      "id": 19049,
+      "name": "Vivid Strap",
+      "clientName": "Vivid Strap",
+      "slot": "Sub",
+      "level": 75,
+      "rare": false,
+      "exclusive": false,
+      "jobs": [
+        "All"
+      ],
+      "mods": {
+        "FASTCAST": 1
+      },
+      "latents": [],
+      "dmg": 1,
+      "delay": 999,
+      "weaponType": "Skill0"
+    },
+    {
+      "id": 19051,
+      "name": "Vivid Strap +1",
+      "clientName": "Vivid Strap +1",
+      "slot": "Sub",
+      "level": 75,
+      "rare": false,
+      "exclusive": false,
+      "jobs": [
+        "All"
+      ],
+      "mods": {
+        "INT": 1,
+        "FASTCAST": 1
+      },
+      "latents": [],
+      "dmg": 1,
+      "delay": 999,
+      "weaponType": "Skill0"
+    },
+    {
       "id": 19100,
       "name": "Cobra Unit Knife",
       "clientName": "Cobra Knife",
@@ -143431,6 +145181,26 @@
       "weaponType": "GreatSword"
     },
     {
+      "id": 19186,
+      "name": "Tiny Tathlum",
+      "clientName": "Tiny Tathlum",
+      "slot": "Ammo",
+      "level": 15,
+      "rare": true,
+      "exclusive": false,
+      "jobs": [
+        "All"
+      ],
+      "mods": {
+        "HP": 3,
+        "ATT": 1
+      },
+      "latents": [],
+      "dmg": 0,
+      "delay": 999,
+      "weaponType": "Skill0"
+    },
+    {
       "id": 19200,
       "name": "Black Bolt",
       "clientName": "Black Bolt",
@@ -143587,6 +145357,104 @@
       "weaponType": "Throwing"
     },
     {
+      "id": 19211,
+      "name": "Reacton Arm",
+      "clientName": "Reacton Arm",
+      "slot": "Ammo",
+      "level": 70,
+      "rare": true,
+      "exclusive": true,
+      "jobs": [
+        "SAM"
+      ],
+      "mods": {
+        "ATT": 10
+      },
+      "latents": [],
+      "dmg": 0,
+      "delay": 999,
+      "weaponType": "Skill0"
+    },
+    {
+      "id": 19212,
+      "name": "Black Tathlum",
+      "clientName": "Black Tathlum",
+      "slot": "Ammo",
+      "level": 70,
+      "rare": true,
+      "exclusive": false,
+      "jobs": [
+        "WAR",
+        "RDM",
+        "RNG",
+        "NIN",
+        "COR",
+        "PUP",
+        "GEO"
+      ],
+      "mods": {
+        "DEX": 1,
+        "ATT": 4,
+        "ACC": 4
+      },
+      "latents": [],
+      "dmg": 0,
+      "delay": 999,
+      "weaponType": "Skill0"
+    },
+    {
+      "id": 19213,
+      "name": "White Tathlum",
+      "clientName": "White Tathlum",
+      "slot": "Ammo",
+      "level": 70,
+      "rare": true,
+      "exclusive": false,
+      "jobs": [
+        "All"
+      ],
+      "mods": {
+        "HP": 15,
+        "MP": 15,
+        "ENMITY": -2,
+        "STORETP": 2
+      },
+      "latents": [],
+      "dmg": 0,
+      "delay": 999,
+      "weaponType": "Skill0"
+    },
+    {
+      "id": 19214,
+      "name": "Fullmetal Bullet",
+      "clientName": "Fullmetal Bullet",
+      "slot": "Ammo",
+      "level": 40,
+      "rare": true,
+      "exclusive": true,
+      "jobs": [
+        "All"
+      ],
+      "mods": {},
+      "latents": [
+        {
+          "mod": "STR",
+          "value": 2,
+          "latent": "STATUS_EFFECT_ACTIVE",
+          "param": 267
+        },
+        {
+          "mod": "DEX",
+          "value": 2,
+          "latent": "STATUS_EFFECT_ACTIVE",
+          "param": 267
+        }
+      ],
+      "dmg": 0,
+      "delay": 999,
+      "weaponType": "Skill0"
+    },
+    {
       "id": 19215,
       "name": "Amanokakoyumi",
       "clientName": "Amanokakoyumi",
@@ -143675,6 +145543,46 @@
       "weaponType": "Marksmanship"
     },
     {
+      "id": 19219,
+      "name": "Iwatsubute",
+      "clientName": "Iwatsubute",
+      "slot": "Ammo",
+      "level": 69,
+      "rare": true,
+      "exclusive": false,
+      "jobs": [
+        "All"
+      ],
+      "mods": {
+        "HP": 10,
+        "VIT": 1
+      },
+      "latents": [],
+      "dmg": 0,
+      "delay": 999,
+      "weaponType": "Skill0"
+    },
+    {
+      "id": 19220,
+      "name": "Goblin Cracker",
+      "clientName": "Goblin Cracker",
+      "slot": "Ammo",
+      "level": 69,
+      "rare": true,
+      "exclusive": false,
+      "jobs": [
+        "All"
+      ],
+      "mods": {
+        "ACC": 2,
+        "EVA": 2
+      },
+      "latents": [],
+      "dmg": 0,
+      "delay": 999,
+      "weaponType": "Skill0"
+    },
+    {
       "id": 19221,
       "name": "Firefly",
       "clientName": "Firefly",
@@ -143724,6 +145632,26 @@
       "dmg": 35,
       "delay": 540,
       "weaponType": "Archery"
+    },
+    {
+      "id": 19223,
+      "name": "Attar Of Roses",
+      "clientName": "Attar Of Roses",
+      "slot": "Ammo",
+      "level": 11,
+      "rare": true,
+      "exclusive": true,
+      "jobs": [
+        "All"
+      ],
+      "mods": {
+        "HP": 8,
+        "EARTH_MEVA": 3
+      },
+      "latents": [],
+      "dmg": 0,
+      "delay": 999,
+      "weaponType": "Skill0"
     },
     {
       "id": 19226,
@@ -143998,6 +145926,94 @@
       "weaponType": "Marksmanship"
     },
     {
+      "id": 19237,
+      "name": "Slick Dart",
+      "clientName": "Slick Dart",
+      "slot": "Ammo",
+      "level": 53,
+      "rare": true,
+      "exclusive": true,
+      "jobs": [
+        "RDM",
+        "PLD",
+        "SAM",
+        "GEO"
+      ],
+      "mods": {
+        "DEX": 1
+      },
+      "latents": [],
+      "dmg": 0,
+      "delay": 999,
+      "weaponType": "Skill0"
+    },
+    {
+      "id": 19238,
+      "name": "Jasper Tathlum",
+      "clientName": "Jasper Tathlum",
+      "slot": "Ammo",
+      "level": 56,
+      "rare": true,
+      "exclusive": true,
+      "jobs": [
+        "All"
+      ],
+      "mods": {
+        "INT": 1,
+        "MND": 1
+      },
+      "latents": [],
+      "dmg": 0,
+      "delay": 999,
+      "weaponType": "Skill0"
+    },
+    {
+      "id": 19239,
+      "name": "Astrolabe",
+      "clientName": "Astrolabe",
+      "slot": "Ammo",
+      "level": 70,
+      "rare": true,
+      "exclusive": true,
+      "jobs": [
+        "WAR",
+        "BLM",
+        "RDM",
+        "DRK",
+        "BRD",
+        "NIN",
+        "PUP",
+        "GEO"
+      ],
+      "mods": {
+        "STR": 1,
+        "ACC": 3
+      },
+      "latents": [],
+      "dmg": 0,
+      "delay": 999,
+      "weaponType": "Skill0"
+    },
+    {
+      "id": 19240,
+      "name": "Aumoniere",
+      "clientName": "Aumoniere",
+      "slot": "Ammo",
+      "level": 73,
+      "rare": false,
+      "exclusive": false,
+      "jobs": [
+        "All"
+      ],
+      "mods": {
+        "ENMITY": 1
+      },
+      "latents": [],
+      "dmg": 0,
+      "delay": 999,
+      "weaponType": "Skill0"
+    },
+    {
       "id": 19241,
       "name": "Trackers Bow +1",
       "clientName": "Trackers Bow +1",
@@ -144018,6 +146034,92 @@
       "dmg": 27,
       "delay": 280,
       "weaponType": "Marksmanship"
+    },
+    {
+      "id": 19242,
+      "name": "Aumoniere +1",
+      "clientName": "Aumoniere +1",
+      "slot": "Ammo",
+      "level": 73,
+      "rare": false,
+      "exclusive": false,
+      "jobs": [
+        "All"
+      ],
+      "mods": {
+        "ENMITY": 2
+      },
+      "latents": [],
+      "dmg": 0,
+      "delay": 999,
+      "weaponType": "Skill0"
+    },
+    {
+      "id": 19243,
+      "name": "Brio Dart",
+      "clientName": "Brio Dart",
+      "slot": "Ammo",
+      "level": 30,
+      "rare": true,
+      "exclusive": false,
+      "jobs": [
+        "All"
+      ],
+      "mods": {
+        "MP": 3,
+        "MACC": 1
+      },
+      "latents": [],
+      "dmg": 0,
+      "delay": 999,
+      "weaponType": "Skill0"
+    },
+    {
+      "id": 19244,
+      "name": "Verthandis Gem",
+      "clientName": "Verthandis Gem",
+      "slot": "Ammo",
+      "level": 75,
+      "rare": true,
+      "exclusive": true,
+      "jobs": [
+        "All"
+      ],
+      "mods": {
+        "HP": 30,
+        "CHR": 1,
+        "DARK_MEVA": -30
+      },
+      "latents": [],
+      "dmg": 0,
+      "delay": 999,
+      "weaponType": "Skill0"
+    },
+    {
+      "id": 19245,
+      "name": "Jinx Ampulla",
+      "clientName": "Jinx Ampulla",
+      "slot": "Ammo",
+      "level": 75,
+      "rare": true,
+      "exclusive": true,
+      "jobs": [
+        "MNK",
+        "WHM",
+        "BLM",
+        "DRG",
+        "SMN",
+        "DNC",
+        "SCH"
+      ],
+      "mods": {
+        "HP": -15,
+        "MAGIC_CRITHITRATE": 1
+      },
+      "latents": [],
+      "dmg": 0,
+      "delay": 999,
+      "weaponType": "Skill0"
     },
     {
       "id": 19271,
@@ -145777,6 +147879,27 @@
       "dmg": 84,
       "delay": 443,
       "weaponType": "GreatSword"
+    },
+    {
+      "id": 21347,
+      "name": "Charitoni Sling",
+      "clientName": "Charitoni Sling",
+      "slot": "Ammo",
+      "level": 75,
+      "rare": true,
+      "exclusive": false,
+      "jobs": [
+        "All"
+      ],
+      "mods": {
+        "HP": 25,
+        "VIT": 2,
+        "ENMITY": 1
+      },
+      "latents": [],
+      "dmg": 0,
+      "delay": 999,
+      "weaponType": "Skill0"
     },
     {
       "id": 21460,
