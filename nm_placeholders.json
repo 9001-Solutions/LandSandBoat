@@ -1,0 +1,5952 @@
+[
+  {
+    "zone": "Alzadaal_Undersea_Ruins",
+    "zoneId": 72,
+    "nms": [
+      {
+        "nmName": "Cookieduster Lipiroon",
+        "nmId": 17072150,
+        "placeholders": [
+          {
+            "phId": 17072142,
+            "phName": "Qiqirn Goldsmith",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 17072144,
+            "phName": "Qiqirn Goldsmith",
+            "lotteryChance": 5
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "zone": "Arrapago_Reef",
+    "zoneId": 54,
+    "nms": [
+      {
+        "nmName": "Bloody Bones",
+        "nmId": 16998655,
+        "placeholders": [
+          {
+            "phId": 16998653,
+            "phName": "Draugar Servant",
+            "lotteryChance": 5
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "zone": "Attohwa_Chasm",
+    "zoneId": 7,
+    "nms": [
+      {
+        "nmName": "Ambusher Antlion",
+        "nmId": 16806249,
+        "placeholders": [
+          {
+            "phId": 16806171,
+            "phName": "Trench Antlion",
+            "lotteryChance": 10
+          }
+        ]
+      },
+      {
+        "nmName": "Citipati",
+        "nmId": 16806162,
+        "placeholders": [
+          {
+            "phId": 16806155,
+            "phName": "Corse",
+            "lotteryChance": 20
+          },
+          {
+            "phId": 16806158,
+            "phName": "Corse",
+            "lotteryChance": 20
+          },
+          {
+            "phId": 16806161,
+            "phName": "Corse",
+            "lotteryChance": 20
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "zone": "Aydeewa_Subterrane",
+    "zoneId": 68,
+    "nms": [
+      {
+        "nmName": "Bluestreak Gyugyuroon",
+        "nmId": 17056156,
+        "placeholders": [
+          {
+            "phId": 17055941,
+            "phName": "Qiqirn Archaeologist",
+            "lotteryChance": 10
+          },
+          {
+            "phId": 17055942,
+            "phName": "Qiqirn Archaeologist",
+            "lotteryChance": 10
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "zone": "Batallia_Downs",
+    "zoneId": 105,
+    "nms": [
+      {
+        "nmName": "Prankster Maverix",
+        "nmId": 17207640,
+        "placeholders": [
+          {
+            "phId": 17207635,
+            "phName": "Evil Weapon",
+            "lotteryChance": 15
+          }
+        ]
+      },
+      {
+        "nmName": "Tottering Toby",
+        "nmId": 17207476,
+        "placeholders": [
+          {
+            "phId": 17207449,
+            "phName": "Stalking Sapling",
+            "lotteryChance": 20
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "zone": "Batallia_Downs_[S]",
+    "zoneId": 84,
+    "nms": [
+      {
+        "nmName": "Burlibix Brawnback",
+        "nmId": 17121399,
+        "placeholders": [
+          {
+            "phId": 17121398,
+            "phName": "Goblin Blastmaster",
+            "lotteryChance": 10
+          },
+          {
+            "phId": 17121402,
+            "phName": "Goblin Blastmaster",
+            "lotteryChance": 10
+          }
+        ]
+      },
+      {
+        "nmName": "Habergoass",
+        "nmId": 17121603,
+        "placeholders": [
+          {
+            "phId": 17121602,
+            "phName": "Ba",
+            "lotteryChance": 10
+          }
+        ]
+      },
+      {
+        "nmName": "La Velue",
+        "nmId": 17121576,
+        "placeholders": [
+          {
+            "phId": 17121554,
+            "phName": "Smilodon",
+            "lotteryChance": 10
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "zone": "Beadeaux",
+    "zoneId": 147,
+    "nms": [
+      {
+        "nmName": "Bi'Gho Headtaker",
+        "nmId": 17379351,
+        "placeholders": [
+          {
+            "phId": 17379350,
+            "phName": "Brass Quadav",
+            "lotteryChance": 10
+          }
+        ]
+      },
+      {
+        "nmName": "Da'Dha Hundredmask",
+        "nmId": 17379427,
+        "placeholders": [
+          {
+            "phId": 17379426,
+            "phName": "Copper Quadav",
+            "lotteryChance": 10
+          }
+        ]
+      },
+      {
+        "nmName": "Ga'Bhu Unvanquished",
+        "nmId": 17379626,
+        "placeholders": [
+          {
+            "phId": 17379625,
+            "phName": "Emerald Quadav",
+            "lotteryChance": 10
+          }
+        ]
+      },
+      {
+        "nmName": "Ge'Dha Evileye",
+        "nmId": 17379450,
+        "placeholders": [
+          {
+            "phId": 17379447,
+            "phName": "Old Quadav",
+            "lotteryChance": 25
+          }
+        ]
+      },
+      {
+        "nmName": "Zo'Khu Blackcloud",
+        "nmId": 17379564,
+        "placeholders": [
+          {
+            "phId": 17379562,
+            "phName": "Zircon Quadav",
+            "lotteryChance": 10
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "zone": "Beadeaux_[S]",
+    "zoneId": 92,
+    "nms": [
+      {
+        "nmName": "Ba'Tho Mercifulheart",
+        "nmId": 17154148,
+        "placeholders": [
+          {
+            "phId": 17154147,
+            "phName": "Adaman Quadav",
+            "lotteryChance": 10
+          }
+        ]
+      },
+      {
+        "nmName": "Da'Dha Hundredmask",
+        "nmId": 17154195,
+        "placeholders": [
+          {
+            "phId": 17154095,
+            "phName": "Gold Quadav",
+            "lotteryChance": 12
+          }
+        ]
+      },
+      {
+        "nmName": "Ea'Tho Cruelheart",
+        "nmId": 17154069,
+        "placeholders": [
+          {
+            "phId": 17154068,
+            "phName": "Adaman Quadav",
+            "lotteryChance": 10
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "zone": "Beaucedine_Glacier",
+    "zoneId": 111,
+    "nms": [
+      {
+        "nmName": "Gargantua",
+        "nmId": 17232079,
+        "placeholders": [
+          {
+            "phId": 17232078,
+            "phName": "Stone Golem",
+            "lotteryChance": 5
+          }
+        ]
+      },
+      {
+        "nmName": "Kirata",
+        "nmId": 17232044,
+        "placeholders": [
+          {
+            "phId": 17232042,
+            "phName": "Tundra Tiger",
+            "lotteryChance": 7
+          },
+          {
+            "phId": 17232043,
+            "phName": "Tundra Tiger",
+            "lotteryChance": 7
+          }
+        ]
+      },
+      {
+        "nmName": "Nue",
+        "nmId": 17231971,
+        "placeholders": [
+          {
+            "phId": 17231969,
+            "phName": "Tundra Tiger",
+            "lotteryChance": 7
+          },
+          {
+            "phId": 17231970,
+            "phName": "Tundra Tiger",
+            "lotteryChance": 7
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "zone": "Beaucedine_Glacier_[S]",
+    "zoneId": 136,
+    "nms": [
+      {
+        "nmName": "Grand'Goule",
+        "nmId": 17334482,
+        "placeholders": [
+          {
+            "phId": 17334475,
+            "phName": "Gargouille",
+            "lotteryChance": 10
+          },
+          {
+            "phId": 17334476,
+            "phName": "Gargouille",
+            "lotteryChance": 10
+          },
+          {
+            "phId": 17334477,
+            "phName": "Gargouille",
+            "lotteryChance": 10
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "zone": "Bhaflau_Thickets",
+    "zoneId": 52,
+    "nms": [
+      {
+        "nmName": "Emergent Elm",
+        "nmId": 16990376,
+        "placeholders": [
+          {
+            "phId": 16990374,
+            "phName": "Olden Treant",
+            "lotteryChance": 5
+          }
+        ]
+      },
+      {
+        "nmName": "Mahishasura",
+        "nmId": 16990306,
+        "placeholders": [
+          {
+            "phId": 16990296,
+            "phName": "Marid",
+            "lotteryChance": 5
+          }
+        ]
+      },
+      {
+        "nmName": "Nis Puk",
+        "nmId": 16990403,
+        "placeholders": [
+          {
+            "phId": 16990383,
+            "phName": "Sea Puk",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 16990384,
+            "phName": "Sea Puk",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 16990385,
+            "phName": "Sea Puk",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 16990391,
+            "phName": "Sea Puk",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 16990392,
+            "phName": "Sea Puk",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 16990393,
+            "phName": "Sea Puk",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 16990394,
+            "phName": "Sea Puk",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 16990398,
+            "phName": "Sea Puk",
+            "lotteryChance": 5
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "zone": "Bibiki_Bay",
+    "zoneId": 4,
+    "nms": [
+      {
+        "nmName": "Intulo",
+        "nmId": 16793742,
+        "placeholders": [
+          {
+            "phId": 16793741,
+            "phName": "Eft",
+            "lotteryChance": 10
+          }
+        ]
+      },
+      {
+        "nmName": "Serra",
+        "nmId": 16793646,
+        "placeholders": [
+          {
+            "phId": 16793645,
+            "phName": "Jagil",
+            "lotteryChance": 10
+          }
+        ]
+      },
+      {
+        "nmName": "Splacknuck",
+        "nmId": 16793776,
+        "placeholders": [
+          {
+            "phId": 16793775,
+            "phName": "Tartarus Eft",
+            "lotteryChance": 10
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "zone": "Bostaunieux_Oubliette",
+    "zoneId": 167,
+    "nms": [
+      {
+        "nmName": "Arioch",
+        "nmId": 17461433,
+        "placeholders": [
+          {
+            "phId": 17461422,
+            "phName": "Werebat",
+            "lotteryChance": 10
+          }
+        ]
+      },
+      {
+        "nmName": "Manes",
+        "nmId": 17461471,
+        "placeholders": [
+          {
+            "phId": 17461469,
+            "phName": "Gespenst",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 17461470,
+            "phName": "Gespenst",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 17461476,
+            "phName": "Gespenst",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 17461477,
+            "phName": "Gespenst",
+            "lotteryChance": 5
+          }
+        ]
+      },
+      {
+        "nmName": "Sewer Syrup",
+        "nmId": 17461307,
+        "placeholders": [
+          {
+            "phId": 17461305,
+            "phName": "Mousse",
+            "lotteryChance": 10
+          },
+          {
+            "phId": 17461306,
+            "phName": "Mousse",
+            "lotteryChance": 10
+          }
+        ]
+      },
+      {
+        "nmName": "Shii",
+        "nmId": 17461315,
+        "placeholders": [
+          {
+            "phId": 17461277,
+            "phName": "Garm",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 17461308,
+            "phName": "Garm",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 17461309,
+            "phName": "Garm",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 17461311,
+            "phName": "Garm",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 17461312,
+            "phName": "Garm",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 17461334,
+            "phName": "Garm",
+            "lotteryChance": 5
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "zone": "Buburimu_Peninsula",
+    "zoneId": 118,
+    "nms": [
+      {
+        "nmName": "Buburimboo",
+        "nmId": 17261003,
+        "placeholders": [
+          {
+            "phId": 17261002,
+            "phName": "Shoal Pugil",
+            "lotteryChance": 10
+          }
+        ]
+      },
+      {
+        "nmName": "Helldiver",
+        "nmId": 17260907,
+        "placeholders": [
+          {
+            "phId": 17260906,
+            "phName": "Zu",
+            "lotteryChance": 10
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "zone": "Caedarva_Mire",
+    "zoneId": 79,
+    "nms": [
+      {
+        "nmName": "Peallaidh",
+        "nmId": 17101143,
+        "placeholders": [
+          {
+            "phId": 17100870,
+            "phName": "Wild Karakul",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 17100871,
+            "phName": "Wild Karakul",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 17100872,
+            "phName": "Wild Karakul",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 17100873,
+            "phName": "Wild Karakul",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 17100874,
+            "phName": "Wild Karakul",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 17100875,
+            "phName": "Wild Karakul",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 17100876,
+            "phName": "Wild Karakul",
+            "lotteryChance": 5
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "zone": "Cape_Teriggan",
+    "zoneId": 113,
+    "nms": [
+      {
+        "nmName": "Frostmane",
+        "nmId": 17240376,
+        "placeholders": [
+          {
+            "phId": 17240371,
+            "phName": "Greater Manticore",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 17240372,
+            "phName": "Greater Manticore",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 17240373,
+            "phName": "Greater Manticore",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 17240374,
+            "phName": "Greater Manticore",
+            "lotteryChance": 5
+          }
+        ]
+      },
+      {
+        "nmName": "Killer Jonny",
+        "nmId": 17240180,
+        "placeholders": [
+          {
+            "phId": 17240166,
+            "phName": "Velociraptor",
+            "lotteryChance": 15
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "zone": "Carpenters_Landing",
+    "zoneId": 2,
+    "nms": [
+      {
+        "nmName": "Orctrap",
+        "nmId": 16785676,
+        "placeholders": [
+          {
+            "phId": 16785675,
+            "phName": "Birdtrap",
+            "lotteryChance": 10
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "zone": "Castle_Oztroja",
+    "zoneId": 151,
+    "nms": [
+      {
+        "nmName": "Mee Deggi the Punisher",
+        "nmId": 17395800,
+        "placeholders": [
+          {
+            "phId": 17395761,
+            "phName": "Yagudo Interrogator",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 17395766,
+            "phName": "Yagudo Drummer",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 17395769,
+            "phName": "Yagudo Interrogator",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 17395775,
+            "phName": "Yagudo Drummer",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 17395783,
+            "phName": "Yagudo Drummer",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 17395784,
+            "phName": "Yagudo Interrogator",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 17395798,
+            "phName": "Yagudo Drummer",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 17395799,
+            "phName": "Yagudo Interrogator",
+            "lotteryChance": 5
+          }
+        ]
+      },
+      {
+        "nmName": "Moo Ouzi the Swiftblade",
+        "nmId": 17395816,
+        "placeholders": [
+          {
+            "phId": 17395809,
+            "phName": "Yagudo Theologist",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 17395813,
+            "phName": "Yagudo Theologist",
+            "lotteryChance": 5
+          }
+        ]
+      },
+      {
+        "nmName": "Quu Domi the Gallant",
+        "nmId": 17395870,
+        "placeholders": [
+          {
+            "phId": 17395829,
+            "phName": "Yagudo Herald",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 17395831,
+            "phName": "Yagudo Oracle",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 17395837,
+            "phName": "Yagudo Herald",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 17395844,
+            "phName": "Yagudo Herald",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 17395845,
+            "phName": "Yagudo Oracle",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 17395853,
+            "phName": "Yagudo Oracle",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 17395867,
+            "phName": "Yagudo Herald",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 17395868,
+            "phName": "Yagudo Oracle",
+            "lotteryChance": 5
+          }
+        ]
+      },
+      {
+        "nmName": "Yaa Haqa the Profane",
+        "nmId": 17395954,
+        "placeholders": [
+          {
+            "phId": 17395950,
+            "phName": "Yagudo Zealot",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 17395951,
+            "phName": "Yagudo Conquistador",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 17395952,
+            "phName": "Yagudo Lutenist",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 17395953,
+            "phName": "Yagudo Prior",
+            "lotteryChance": 5
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "zone": "Castle_Oztroja_[S]",
+    "zoneId": 99,
+    "nms": [
+      {
+        "nmName": "Aa Xalmo the Savage",
+        "nmId": 17182843,
+        "placeholders": [
+          {
+            "phId": 17182827,
+            "phName": "Yagudo Sentinel",
+            "lotteryChance": 10
+          },
+          {
+            "phId": 17182838,
+            "phName": "Yagudo Sentinel",
+            "lotteryChance": 10
+          }
+        ]
+      },
+      {
+        "nmName": "Zhuu Buxu the Silent",
+        "nmId": 17182813,
+        "placeholders": [
+          {
+            "phId": 17182812,
+            "phName": "Yagudo Sentinel",
+            "lotteryChance": 10
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "zone": "Castle_Zvahl_Baileys",
+    "zoneId": 161,
+    "nms": [
+      {
+        "nmName": "Marquis Sabnock",
+        "nmId": 17436881,
+        "placeholders": [
+          {
+            "phId": 17436879,
+            "phName": "Abyssal Demon",
+            "lotteryChance": 10
+          },
+          {
+            "phId": 17436882,
+            "phName": "Doom Demon",
+            "lotteryChance": 10
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "zone": "Castle_Zvahl_Keep",
+    "zoneId": 162,
+    "nms": [
+      {
+        "nmName": "Baron Vapula",
+        "nmId": 17440963,
+        "placeholders": [
+          {
+            "phId": 17440960,
+            "phName": "Demon Warlock"
+          },
+          {
+            "phId": 17440962,
+            "phName": "Demon Wizard",
+            "lotteryChance": 10
+          }
+        ]
+      },
+      {
+        "nmName": "Baronet Romwe",
+        "nmId": 17440986,
+        "placeholders": [
+          {
+            "phId": 17440984,
+            "phName": "Demon Pawn",
+            "lotteryChance": 10
+          },
+          {
+            "phId": 17440985,
+            "phName": "Demon Pawn",
+            "lotteryChance": 10
+          }
+        ]
+      },
+      {
+        "nmName": "Count Bifrons",
+        "nmId": 17440969,
+        "placeholders": [
+          {
+            "phId": 17440968,
+            "phName": "Demon Knight",
+            "lotteryChance": 10
+          }
+        ]
+      },
+      {
+        "nmName": "Viscount Morax",
+        "nmId": 17440975,
+        "placeholders": [
+          {
+            "phId": 17440973,
+            "phName": "Demon Warlock",
+            "lotteryChance": 10
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "zone": "Crawlers_Nest",
+    "zoneId": 197,
+    "nms": [
+      {
+        "nmName": "Demonic Tiphia",
+        "nmId": 17584398,
+        "placeholders": [
+          {
+            "phId": 17584391,
+            "phName": "Wespe",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 17584392,
+            "phName": "Wespe",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 17584395,
+            "phName": "Wespe",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 17584396,
+            "phName": "Wespe",
+            "lotteryChance": 5
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "zone": "Crawlers_Nest_[S]",
+    "zoneId": 171,
+    "nms": [
+      {
+        "nmName": "Morille Mortelle",
+        "nmId": 17477640,
+        "placeholders": [
+          {
+            "phId": 17477636,
+            "phName": "Witch Hazel",
+            "lotteryChance": 12
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "zone": "Dangruf_Wadi",
+    "zoneId": 191,
+    "nms": [
+      {
+        "nmName": "Teporingo",
+        "nmId": 17559584,
+        "placeholders": [
+          {
+            "phId": 17559583,
+            "phName": "Hoarder Hare",
+            "lotteryChance": 20
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "zone": "Davoi",
+    "zoneId": 149,
+    "nms": [
+      {
+        "nmName": "Blubbery Bulge",
+        "nmId": 17387920,
+        "placeholders": [
+          {
+            "phId": 17387919,
+            "phName": "Davoi Mush",
+            "lotteryChance": 20
+          }
+        ]
+      },
+      {
+        "nmName": "Hawkeyed Dnatbat",
+        "nmId": 17387567,
+        "placeholders": [
+          {
+            "phId": 17387558,
+            "phName": "Orcish Cursemaker",
+            "lotteryChance": 10
+          },
+          {
+            "phId": 17387560,
+            "phName": "Orcish Cursemaker",
+            "lotteryChance": 10
+          },
+          {
+            "phId": 17387563,
+            "phName": "Orcish Cursemaker",
+            "lotteryChance": 10
+          }
+        ]
+      },
+      {
+        "nmName": "Poisonhand Gnadgad",
+        "nmId": 17387644,
+        "placeholders": [
+          {
+            "phId": 17387634,
+            "phName": "Orcish Impaler",
+            "lotteryChance": 10
+          },
+          {
+            "phId": 17387635,
+            "phName": "Orcish Beastrider",
+            "lotteryChance": 10
+          },
+          {
+            "phId": 17387636,
+            "phName": "Orcish Nightraider",
+            "lotteryChance": 10
+          },
+          {
+            "phId": 17387637,
+            "phName": "Orcish Brawler",
+            "lotteryChance": 10
+          },
+          {
+            "phId": 17387638,
+            "phName": "Orcish Impaler",
+            "lotteryChance": 10
+          },
+          {
+            "phId": 17387639,
+            "phName": "Orcish Beastrider",
+            "lotteryChance": 10
+          },
+          {
+            "phId": 17387640,
+            "phName": "Orcish Nightraider",
+            "lotteryChance": 10
+          },
+          {
+            "phId": 17387641,
+            "phName": "Orcish Firebelcher",
+            "lotteryChance": 10
+          }
+        ]
+      },
+      {
+        "nmName": "Steelbiter Gudrud",
+        "nmId": 17387585,
+        "placeholders": [
+          {
+            "phId": 17387578,
+            "phName": "Orcish Impaler",
+            "lotteryChance": 10
+          }
+        ]
+      },
+      {
+        "nmName": "Tigerbane Bakdak",
+        "nmId": 17387606,
+        "placeholders": [
+          {
+            "phId": 17387602,
+            "phName": "War Lizard",
+            "lotteryChance": 10
+          },
+          {
+            "phId": 17387603,
+            "phName": "War Lizard",
+            "lotteryChance": 10
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "zone": "Den_of_Rancor",
+    "zoneId": 160,
+    "nms": [
+      {
+        "nmName": "Friar Rush",
+        "nmId": 17432640,
+        "placeholders": [
+          {
+            "phId": 17432638,
+            "phName": "Bifrons",
+            "lotteryChance": 10
+          }
+        ]
+      },
+      {
+        "nmName": "Ogama",
+        "nmId": 17432974,
+        "placeholders": [
+          {
+            "phId": 17432972,
+            "phName": "Doom Toad",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 17432978,
+            "phName": "Doom Toad",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 17432979,
+            "phName": "Doom Toad",
+            "lotteryChance": 5
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "zone": "Dynamis-Beaucedine",
+    "zoneId": 134,
+    "nms": [
+      {
+        "nmName": "Ascetox Ratgums",
+        "nmId": 17326397,
+        "placeholders": [
+          {
+            "phId": 17326395,
+            "phName": "Vanguard Shaman",
+            "lotteryChance": 10
+          }
+        ]
+      },
+      {
+        "nmName": "Be'Zhe Keeprazer",
+        "nmId": 17326201,
+        "placeholders": [
+          {
+            "phId": 17326199,
+            "phName": "Vanguard Undertaker",
+            "lotteryChance": 10
+          }
+        ]
+      },
+      {
+        "nmName": "Bhuu Wjato the Firepool",
+        "nmId": 17326300,
+        "placeholders": [
+          {
+            "phId": 17326298,
+            "phName": "Vanguard Prelate",
+            "lotteryChance": 10
+          }
+        ]
+      },
+      {
+        "nmName": "Bordox Kittyback",
+        "nmId": 17326410,
+        "placeholders": [
+          {
+            "phId": 17326408,
+            "phName": "Vanguard Welldigger",
+            "lotteryChance": 10
+          }
+        ]
+      },
+      {
+        "nmName": "Brewnix Bittypupils",
+        "nmId": 17326387,
+        "placeholders": [
+          {
+            "phId": 17326390,
+            "phName": "Vanguard Alchemist",
+            "lotteryChance": 10
+          }
+        ]
+      },
+      {
+        "nmName": "Caa Xaza the Madpiercer",
+        "nmId": 17326304,
+        "placeholders": [
+          {
+            "phId": 17326302,
+            "phName": "Vanguard Visionary",
+            "lotteryChance": 10
+          }
+        ]
+      },
+      {
+        "nmName": "Cobraclaw Buchzvotch",
+        "nmId": 17326218,
+        "placeholders": [
+          {
+            "phId": 17326217,
+            "phName": "Vanguard Grappler",
+            "lotteryChance": 10
+          }
+        ]
+      },
+      {
+        "nmName": "De'Bho Pyrohand",
+        "nmId": 17326156,
+        "placeholders": [
+          {
+            "phId": 17326153,
+            "phName": "Vanguard Thaumaturge",
+            "lotteryChance": 10
+          }
+        ]
+      },
+      {
+        "nmName": "Deathcaller Bidfbid",
+        "nmId": 17326233,
+        "placeholders": [
+          {
+            "phId": 17326231,
+            "phName": "Vanguard Dollmaster",
+            "lotteryChance": 10
+          }
+        ]
+      },
+      {
+        "nmName": "Drakefeast Wubmfub",
+        "nmId": 17326273,
+        "placeholders": [
+          {
+            "phId": 17326271,
+            "phName": "Vanguard Impaler",
+            "lotteryChance": 10
+          }
+        ]
+      },
+      {
+        "nmName": "Draklix Scalecrust",
+        "nmId": 17326421,
+        "placeholders": [
+          {
+            "phId": 17326419,
+            "phName": "Vanguard Dragontamer",
+            "lotteryChance": 10
+          }
+        ]
+      },
+      {
+        "nmName": "Droprix Granitepalms",
+        "nmId": 17326379,
+        "placeholders": [
+          {
+            "phId": 17326377,
+            "phName": "Vanguard Pitfighter",
+            "lotteryChance": 10
+          }
+        ]
+      },
+      {
+        "nmName": "Elvaanlopper Grokdok",
+        "nmId": 17326255,
+        "placeholders": [
+          {
+            "phId": 17326254,
+            "phName": "Vanguard Gutslasher",
+            "lotteryChance": 10
+          }
+        ]
+      },
+      {
+        "nmName": "Foo Peku the Bloodcloak",
+        "nmId": 17326284,
+        "placeholders": [
+          {
+            "phId": 17326282,
+            "phName": "Vanguard Skirmisher",
+            "lotteryChance": 10
+          }
+        ]
+      },
+      {
+        "nmName": "Ga'Fho Venomtouch",
+        "nmId": 17326135,
+        "placeholders": [
+          {
+            "phId": 17326134,
+            "phName": "Vanguard Constable",
+            "lotteryChance": 10
+          }
+        ]
+      },
+      {
+        "nmName": "Galkarider Retzpratz",
+        "nmId": 17326229,
+        "placeholders": [
+          {
+            "phId": 17326227,
+            "phName": "Vanguard Predator",
+            "lotteryChance": 10
+          }
+        ]
+      },
+      {
+        "nmName": "Gibberox Pimplebeak",
+        "nmId": 17326401,
+        "placeholders": [
+          {
+            "phId": 17326400,
+            "phName": "Vanguard Enchanter",
+            "lotteryChance": 10
+          }
+        ]
+      },
+      {
+        "nmName": "Go'Tyo Magenapper",
+        "nmId": 17326162,
+        "placeholders": [
+          {
+            "phId": 17326157,
+            "phName": "Vanguard Drakekeeper",
+            "lotteryChance": 10
+          }
+        ]
+      },
+      {
+        "nmName": "Gu'Khu Dukesniper",
+        "nmId": 17326185,
+        "placeholders": [
+          {
+            "phId": 17326184,
+            "phName": "Vanguard Mason",
+            "lotteryChance": 10
+          }
+        ]
+      },
+      {
+        "nmName": "Gu'Nha Wallstormer",
+        "nmId": 17326106,
+        "placeholders": [
+          {
+            "phId": 17326100,
+            "phName": "Vanguard Vindicator",
+            "lotteryChance": 10
+          }
+        ]
+      },
+      {
+        "nmName": "Guu Waji the Preacher",
+        "nmId": 17326319,
+        "placeholders": [
+          {
+            "phId": 17326318,
+            "phName": "Vanguard Exemplar",
+            "lotteryChance": 10
+          }
+        ]
+      },
+      {
+        "nmName": "Heavymail Djidzbad",
+        "nmId": 17326248,
+        "placeholders": [
+          {
+            "phId": 17326247,
+            "phName": "Vanguard Trooper",
+            "lotteryChance": 10
+          }
+        ]
+      },
+      {
+        "nmName": "Hee Mida the Meticulous",
+        "nmId": 17326340,
+        "placeholders": [
+          {
+            "phId": 17326338,
+            "phName": "Vanguard Salvager",
+            "lotteryChance": 10
+          }
+        ]
+      },
+      {
+        "nmName": "Humegutter Adzjbadj",
+        "nmId": 17326212,
+        "placeholders": [
+          {
+            "phId": 17326211,
+            "phName": "Vanguard Footsoldier",
+            "lotteryChance": 10
+          }
+        ]
+      },
+      {
+        "nmName": "Jeunoraider Gepkzip",
+        "nmId": 17326216,
+        "placeholders": [
+          {
+            "phId": 17326215,
+            "phName": "Vanguard Backstabber",
+            "lotteryChance": 10
+          }
+        ]
+      },
+      {
+        "nmName": "Ji'Fhu Infiltrator",
+        "nmId": 17326126,
+        "placeholders": [
+          {
+            "phId": 17326121,
+            "phName": "Vanguard Purloiner",
+            "lotteryChance": 10
+          }
+        ]
+      },
+      {
+        "nmName": "Ji'Khu Towercleaver",
+        "nmId": 17326190,
+        "placeholders": [
+          {
+            "phId": 17326189,
+            "phName": "Vanguard Hatamoto",
+            "lotteryChance": 10
+          }
+        ]
+      },
+      {
+        "nmName": "Knii Hoqo the Bisector",
+        "nmId": 17326344,
+        "placeholders": [
+          {
+            "phId": 17326343,
+            "phName": "Vanguard Persecutor",
+            "lotteryChance": 10
+          }
+        ]
+      },
+      {
+        "nmName": "Koo Saxu the Everfast",
+        "nmId": 17326295,
+        "placeholders": [
+          {
+            "phId": 17326294,
+            "phName": "Vanguard Priest",
+            "lotteryChance": 10
+          }
+        ]
+      },
+      {
+        "nmName": "Kuu Xuka the Nimble",
+        "nmId": 17326325,
+        "placeholders": [
+          {
+            "phId": 17326324,
+            "phName": "Vanguard Assassin",
+            "lotteryChance": 10
+          }
+        ]
+      },
+      {
+        "nmName": "Lockbuster Zapdjipp",
+        "nmId": 17326243,
+        "placeholders": [
+          {
+            "phId": 17326241,
+            "phName": "Vanguard Pillager",
+            "lotteryChance": 10
+          }
+        ]
+      },
+      {
+        "nmName": "Maa Zaua the Wyrmkeeper",
+        "nmId": 17326307,
+        "placeholders": [
+          {
+            "phId": 17326305,
+            "phName": "Vanguard Partisan",
+            "lotteryChance": 10
+          }
+        ]
+      },
+      {
+        "nmName": "Mi'Rhe Whisperblade",
+        "nmId": 17326195,
+        "placeholders": [
+          {
+            "phId": 17326194,
+            "phName": "Vanguard Kusa",
+            "lotteryChance": 10
+          }
+        ]
+      },
+      {
+        "nmName": "Mithraslaver Debhabob",
+        "nmId": 17326265,
+        "placeholders": [
+          {
+            "phId": 17326263,
+            "phName": "Vanguard Hawker",
+            "lotteryChance": 10
+          }
+        ]
+      },
+      {
+        "nmName": "Moltenox Stubthumbs",
+        "nmId": 17326374,
+        "placeholders": [
+          {
+            "phId": 17326372,
+            "phName": "Vanguard Smithy",
+            "lotteryChance": 10
+          }
+        ]
+      },
+      {
+        "nmName": "Morblox Chubbychin",
+        "nmId": 17326446,
+        "placeholders": [
+          {
+            "phId": 17326444,
+            "phName": "Vanguard Necromancer",
+            "lotteryChance": 10
+          }
+        ]
+      },
+      {
+        "nmName": "Mu'Gha Legionkiller",
+        "nmId": 17326173,
+        "placeholders": [
+          {
+            "phId": 17326171,
+            "phName": "Vanguard Defender",
+            "lotteryChance": 10
+          }
+        ]
+      },
+      {
+        "nmName": "Na'Hya Floodmaker",
+        "nmId": 17326114,
+        "placeholders": [
+          {
+            "phId": 17326109,
+            "phName": "Vanguard Protector",
+            "lotteryChance": 10
+          }
+        ]
+      },
+      {
+        "nmName": "Nee Huxa the Judgmental",
+        "nmId": 17326323,
+        "placeholders": [
+          {
+            "phId": 17326321,
+            "phName": "Vanguard Inciter",
+            "lotteryChance": 10
+          }
+        ]
+      },
+      {
+        "nmName": "Nu'Bhi Spiraleye",
+        "nmId": 17326151,
+        "placeholders": [
+          {
+            "phId": 17326150,
+            "phName": "Vanguard Minstrel",
+            "lotteryChance": 10
+          }
+        ]
+      },
+      {
+        "nmName": "Puu Timu the Phantasmal",
+        "nmId": 17326347,
+        "placeholders": [
+          {
+            "phId": 17326345,
+            "phName": "Vanguard Oracle",
+            "lotteryChance": 10
+          }
+        ]
+      },
+      {
+        "nmName": "Routsix Rubbertendon",
+        "nmId": 17326439,
+        "placeholders": [
+          {
+            "phId": 17326437,
+            "phName": "Vanguard Pathfinder",
+            "lotteryChance": 10
+          }
+        ]
+      },
+      {
+        "nmName": "Ruffbix Jumbolobes",
+        "nmId": 17326415,
+        "placeholders": [
+          {
+            "phId": 17326413,
+            "phName": "Vanguard Armorer",
+            "lotteryChance": 10
+          }
+        ]
+      },
+      {
+        "nmName": "Ryy Qihi the Idolrobber",
+        "nmId": 17326313,
+        "placeholders": [
+          {
+            "phId": 17326311,
+            "phName": "Vanguard Liberator",
+            "lotteryChance": 10
+          }
+        ]
+      },
+      {
+        "nmName": "Shisox Widebrow",
+        "nmId": 17326463,
+        "placeholders": [
+          {
+            "phId": 17326461,
+            "phName": "Vanguard Ronin",
+            "lotteryChance": 10
+          }
+        ]
+      },
+      {
+        "nmName": "Skinmask Ugghfogg",
+        "nmId": 17326258,
+        "placeholders": [
+          {
+            "phId": 17326257,
+            "phName": "Vanguard Neckchopper",
+            "lotteryChance": 10
+          }
+        ]
+      },
+      {
+        "nmName": "Slinkix Trufflesniff",
+        "nmId": 17326458,
+        "placeholders": [
+          {
+            "phId": 17326457,
+            "phName": "Vanguard Ambusher",
+            "lotteryChance": 10
+          }
+        ]
+      },
+      {
+        "nmName": "So'Gho Adderhandler",
+        "nmId": 17326179,
+        "placeholders": [
+          {
+            "phId": 17326177,
+            "phName": "Vanguard Beasttender",
+            "lotteryChance": 10
+          }
+        ]
+      },
+      {
+        "nmName": "So'Zho Metalbender",
+        "nmId": 17326168,
+        "placeholders": [
+          {
+            "phId": 17326167,
+            "phName": "Vanguard Militant",
+            "lotteryChance": 10
+          }
+        ]
+      },
+      {
+        "nmName": "Soo Jopo the Fiendking",
+        "nmId": 17326328,
+        "placeholders": [
+          {
+            "phId": 17326326,
+            "phName": "Vanguard Ogresoother",
+            "lotteryChance": 10
+          }
+        ]
+      },
+      {
+        "nmName": "Spinalsucker Galflmall",
+        "nmId": 17326237,
+        "placeholders": [
+          {
+            "phId": 17326236,
+            "phName": "Vanguard Vexer",
+            "lotteryChance": 10
+          }
+        ]
+      },
+      {
+        "nmName": "Swypestix Tigershins",
+        "nmId": 17326405,
+        "placeholders": [
+          {
+            "phId": 17326403,
+            "phName": "Vanguard Hitman",
+            "lotteryChance": 10
+          }
+        ]
+      },
+      {
+        "nmName": "Ta'Hyu Gallanthunter",
+        "nmId": 17326145,
+        "placeholders": [
+          {
+            "phId": 17326139,
+            "phName": "Vanguard Vigilante",
+            "lotteryChance": 10
+          }
+        ]
+      },
+      {
+        "nmName": "Taruroaster Biggsjig",
+        "nmId": 17326262,
+        "placeholders": [
+          {
+            "phId": 17326261,
+            "phName": "Vanguard Mesmerizer",
+            "lotteryChance": 10
+          }
+        ]
+      },
+      {
+        "nmName": "Tocktix Thinlids",
+        "nmId": 17326427,
+        "placeholders": [
+          {
+            "phId": 17326425,
+            "phName": "Vanguard Tinkerer",
+            "lotteryChance": 10
+          }
+        ]
+      },
+      {
+        "nmName": "Ultrasonic Zeknajak",
+        "nmId": 17326270,
+        "placeholders": [
+          {
+            "phId": 17326267,
+            "phName": "Vanguard Bugler",
+            "lotteryChance": 10
+          }
+        ]
+      },
+      {
+        "nmName": "Whistrix Toadthroat",
+        "nmId": 17326452,
+        "placeholders": [
+          {
+            "phId": 17326451,
+            "phName": "Vanguard Maestro",
+            "lotteryChance": 10
+          }
+        ]
+      },
+      {
+        "nmName": "Wraithdancer Gidbnod",
+        "nmId": 17326223,
+        "placeholders": [
+          {
+            "phId": 17326221,
+            "phName": "Vanguard Amputator",
+            "lotteryChance": 10
+          }
+        ]
+      },
+      {
+        "nmName": "Xaa Chau the Roctalon",
+        "nmId": 17326289,
+        "placeholders": [
+          {
+            "phId": 17326288,
+            "phName": "Vanguard Sentinel",
+            "lotteryChance": 10
+          }
+        ]
+      },
+      {
+        "nmName": "Xhoo Fuza the Sublime",
+        "nmId": 17326335,
+        "placeholders": [
+          {
+            "phId": 17326334,
+            "phName": "Vanguard Chanter",
+            "lotteryChance": 10
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "zone": "Dynamis-Buburimu",
+    "zoneId": 40,
+    "nms": [
+      {
+        "nmName": "Baa Dava the Bibliophage",
+        "nmId": 16941206,
+        "placeholders": [
+          {
+            "phId": 16941203,
+            "phName": "Vanguard Oracle",
+            "lotteryChance": 10
+          }
+        ]
+      },
+      {
+        "nmName": "Doo Peku the Fleetfoot",
+        "nmId": 16941205,
+        "placeholders": [
+          {
+            "phId": 16941202,
+            "phName": "Vanguard Assassin",
+            "lotteryChance": 10
+          }
+        ]
+      },
+      {
+        "nmName": "Elvaansticker Bxafraff",
+        "nmId": 16941116,
+        "placeholders": [
+          {
+            "phId": 16941113,
+            "phName": "Vanguard Impaler"
+          }
+        ]
+      },
+      {
+        "nmName": "Flamecaller Zoeqdoq",
+        "nmId": 16941115,
+        "placeholders": [
+          {
+            "phId": 16941103,
+            "phName": "Vanguard Mesmerizer"
+          }
+        ]
+      },
+      {
+        "nmName": "Gi'Bhe Fleshfeaster",
+        "nmId": 16941152,
+        "placeholders": [
+          {
+            "phId": 16941142,
+            "phName": "Vanguard Constable",
+            "lotteryChance": 10
+          }
+        ]
+      },
+      {
+        "nmName": "Gosspix Blabberlips",
+        "nmId": 16941097,
+        "placeholders": [
+          {
+            "phId": 16941089,
+            "phName": "Vanguard Enchanter",
+            "lotteryChance": 10
+          }
+        ]
+      },
+      {
+        "nmName": "Hamfist Gukhbuk",
+        "nmId": 16941133,
+        "placeholders": [
+          {
+            "phId": 16941124,
+            "phName": "Vanguard Grappler",
+            "lotteryChance": 10
+          }
+        ]
+      },
+      {
+        "nmName": "Koo Rahi the Levinblade",
+        "nmId": 16941189,
+        "placeholders": [
+          {
+            "phId": 16941185,
+            "phName": "Vanguard Persecutor",
+            "lotteryChance": 10
+          }
+        ]
+      },
+      {
+        "nmName": "Lyncean Juwgneg",
+        "nmId": 16941134,
+        "placeholders": [
+          {
+            "phId": 16941127,
+            "phName": "Vanguard Predator",
+            "lotteryChance": 10
+          }
+        ]
+      },
+      {
+        "nmName": "Qu'Pho Bloodspiller",
+        "nmId": 16941151,
+        "placeholders": [
+          {
+            "phId": 16941139,
+            "phName": "Vanguard Vindicator",
+            "lotteryChance": 10
+          }
+        ]
+      },
+      {
+        "nmName": "Ree Nata the Melomanic",
+        "nmId": 16941188,
+        "placeholders": [
+          {
+            "phId": 16941184,
+            "phName": "Vanguard Chanter",
+            "lotteryChance": 10
+          }
+        ]
+      },
+      {
+        "nmName": "Shamblix Rottenheart",
+        "nmId": 16941082,
+        "placeholders": [
+          {
+            "phId": 16941078,
+            "phName": "Vanguard Tinkerer",
+            "lotteryChance": 10
+          }
+        ]
+      },
+      {
+        "nmName": "Te'Zha Ironclad",
+        "nmId": 16941170,
+        "placeholders": [
+          {
+            "phId": 16941162,
+            "phName": "Vanguard Defender",
+            "lotteryChance": 10
+          }
+        ]
+      },
+      {
+        "nmName": "Va'Rhu Bodysnatcher",
+        "nmId": 16941169,
+        "placeholders": [
+          {
+            "phId": 16941161,
+            "phName": "Vanguard Purloiner",
+            "lotteryChance": 10
+          }
+        ]
+      },
+      {
+        "nmName": "Woodnix Shrillwhistle",
+        "nmId": 16941066,
+        "placeholders": [
+          {
+            "phId": 16941060,
+            "phName": "Vanguard Pathfinder",
+            "lotteryChance": 10
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "zone": "Dynamis-Jeuno",
+    "zoneId": 188,
+    "nms": [
+      {
+        "nmName": "Anvilix Sootwrists",
+        "nmId": 17547472,
+        "placeholders": [
+          {
+            "phId": 17547469,
+            "phName": "Vanguard Smithy",
+            "lotteryChance": 10
+          }
+        ]
+      },
+      {
+        "nmName": "Blazox Boneybod",
+        "nmId": 17547487,
+        "placeholders": [
+          {
+            "phId": 17547483,
+            "phName": "Vanguard Pathfinder",
+            "lotteryChance": 10
+          }
+        ]
+      },
+      {
+        "nmName": "Bootrix Jaggedelbow",
+        "nmId": 17547473,
+        "placeholders": [
+          {
+            "phId": 17547470,
+            "phName": "Vanguard Pitfighter",
+            "lotteryChance": 10
+          }
+        ]
+      },
+      {
+        "nmName": "Cloktix Longnail",
+        "nmId": 17547294,
+        "placeholders": [
+          {
+            "phId": 17547292,
+            "phName": "Vanguard Armorer",
+            "lotteryChance": 10
+          }
+        ]
+      },
+      {
+        "nmName": "Distilix Stickytoes",
+        "nmId": 17547478,
+        "placeholders": [
+          {
+            "phId": 17547475,
+            "phName": "Vanguard Alchemist",
+            "lotteryChance": 10
+          }
+        ]
+      },
+      {
+        "nmName": "Eremix Snottynostril",
+        "nmId": 17547479,
+        "placeholders": [
+          {
+            "phId": 17547476,
+            "phName": "Vanguard Shaman",
+            "lotteryChance": 10
+          }
+        ]
+      },
+      {
+        "nmName": "Gabblox Magpietongue",
+        "nmId": 17547277,
+        "placeholders": [
+          {
+            "phId": 17547275,
+            "phName": "Vanguard Armorer",
+            "lotteryChance": 10
+          }
+        ]
+      },
+      {
+        "nmName": "Hermitrix Toothrot",
+        "nmId": 17547311,
+        "placeholders": [
+          {
+            "phId": 17547310,
+            "phName": "Vanguard Enchanter",
+            "lotteryChance": 10
+          }
+        ]
+      },
+      {
+        "nmName": "Jabbrox Grannyguise",
+        "nmId": 17547480,
+        "placeholders": [
+          {
+            "phId": 17547477,
+            "phName": "Vanguard Enchanter",
+            "lotteryChance": 10
+          }
+        ]
+      },
+      {
+        "nmName": "Mobpix Mucousmouth",
+        "nmId": 17547474,
+        "placeholders": [
+          {
+            "phId": 17547471,
+            "phName": "Vanguard Welldigger",
+            "lotteryChance": 10
+          }
+        ]
+      },
+      {
+        "nmName": "Mortilox Wartpaws",
+        "nmId": 17547438,
+        "placeholders": [
+          {
+            "phId": 17547443,
+            "phName": "Vanguard Necromancer",
+            "lotteryChance": 10
+          }
+        ]
+      },
+      {
+        "nmName": "Prowlox Barrelbelly",
+        "nmId": 17547490,
+        "placeholders": [
+          {
+            "phId": 17547489,
+            "phName": "Vanguard Ambusher",
+            "lotteryChance": 10
+          }
+        ]
+      },
+      {
+        "nmName": "Rutrix Hamgams",
+        "nmId": 17547454,
+        "placeholders": [
+          {
+            "phId": 17547452,
+            "phName": "Vanguard Dragontamer",
+            "lotteryChance": 10
+          }
+        ]
+      },
+      {
+        "nmName": "Scruffix Shaggychest",
+        "nmId": 17547485,
+        "placeholders": [
+          {
+            "phId": 17547481,
+            "phName": "Vanguard Armorer",
+            "lotteryChance": 10
+          }
+        ]
+      },
+      {
+        "nmName": "Slystix Megapeepers",
+        "nmId": 17547492,
+        "placeholders": [
+          {
+            "phId": 17547491,
+            "phName": "Vanguard Hitman",
+            "lotteryChance": 10
+          }
+        ]
+      },
+      {
+        "nmName": "Tufflix Loglimbs",
+        "nmId": 17547291,
+        "placeholders": [
+          {
+            "phId": 17547289,
+            "phName": "Vanguard Armorer",
+            "lotteryChance": 10
+          }
+        ]
+      },
+      {
+        "nmName": "Tymexox Ninefingers",
+        "nmId": 17547486,
+        "placeholders": [
+          {
+            "phId": 17547482,
+            "phName": "Vanguard Tinkerer",
+            "lotteryChance": 10
+          }
+        ]
+      },
+      {
+        "nmName": "Wyrmwix Snakespecs",
+        "nmId": 17547312,
+        "placeholders": [
+          {
+            "phId": 17547321,
+            "phName": "Vanguard Enchanter",
+            "lotteryChance": 10
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "zone": "Dynamis-Xarcabard",
+    "zoneId": 135,
+    "nms": [
+      {
+        "nmName": "Count Raum",
+        "nmId": 17330315,
+        "placeholders": [
+          {
+            "phId": 17330314,
+            "phName": "Kindred Thief",
+            "lotteryChance": 10
+          }
+        ]
+      },
+      {
+        "nmName": "Count Vine",
+        "nmId": 17330440,
+        "placeholders": [
+          {
+            "phId": 17330439,
+            "phName": "Kindred Samurai",
+            "lotteryChance": 10
+          }
+        ]
+      },
+      {
+        "nmName": "Count Zaebos",
+        "nmId": 17330377,
+        "placeholders": [
+          {
+            "phId": 17330376,
+            "phName": "Kindred Warrior",
+            "lotteryChance": 10
+          }
+        ]
+      },
+      {
+        "nmName": "Duke Berith",
+        "nmId": 17330353,
+        "placeholders": [
+          {
+            "phId": 17330352,
+            "phName": "Kindred Red Mage",
+            "lotteryChance": 10
+          }
+        ]
+      },
+      {
+        "nmName": "Duke Gomory",
+        "nmId": 17330304,
+        "placeholders": [
+          {
+            "phId": 17330303,
+            "phName": "Kindred Monk",
+            "lotteryChance": 10
+          }
+        ]
+      },
+      {
+        "nmName": "Duke Scox",
+        "nmId": 17330417,
+        "placeholders": [
+          {
+            "phId": 17330427,
+            "phName": "Kindred Dark Knight",
+            "lotteryChance": 10
+          }
+        ]
+      },
+      {
+        "nmName": "King Zagan",
+        "nmId": 17330430,
+        "placeholders": [
+          {
+            "phId": 17330418,
+            "phName": "Kindred Dragoon",
+            "lotteryChance": 10
+          }
+        ]
+      },
+      {
+        "nmName": "Marquis Andras",
+        "nmId": 17330390,
+        "placeholders": [
+          {
+            "phId": 17330388,
+            "phName": "Kindred Beastmaster",
+            "lotteryChance": 10
+          }
+        ]
+      },
+      {
+        "nmName": "Marquis Cimeries",
+        "nmId": 17330415,
+        "placeholders": [
+          {
+            "phId": 17330414,
+            "phName": "Kindred Ranger",
+            "lotteryChance": 10
+          }
+        ]
+      },
+      {
+        "nmName": "Marquis Decarabia",
+        "nmId": 17330223,
+        "placeholders": [
+          {
+            "phId": 17330222,
+            "phName": "Kindred Bard",
+            "lotteryChance": 10
+          }
+        ]
+      },
+      {
+        "nmName": "Marquis Gamygyn",
+        "nmId": 17330451,
+        "placeholders": [
+          {
+            "phId": 17330450,
+            "phName": "Kindred Ninja",
+            "lotteryChance": 10
+          }
+        ]
+      },
+      {
+        "nmName": "Marquis Nebiros",
+        "nmId": 17330481,
+        "placeholders": [
+          {
+            "phId": 17330479,
+            "phName": "Kindred Summoner",
+            "lotteryChance": 10
+          }
+        ]
+      },
+      {
+        "nmName": "Marquis Orias",
+        "nmId": 17330343,
+        "placeholders": [
+          {
+            "phId": 17330333,
+            "phName": "Kindred Black Mage",
+            "lotteryChance": 10
+          }
+        ]
+      },
+      {
+        "nmName": "Marquis Sabnak",
+        "nmId": 17330360,
+        "placeholders": [
+          {
+            "phId": 17330359,
+            "phName": "Kindred Paladin",
+            "lotteryChance": 10
+          }
+        ]
+      },
+      {
+        "nmName": "Prince Seere",
+        "nmId": 17330332,
+        "placeholders": [
+          {
+            "phId": 17330331,
+            "phName": "Kindred White Mage",
+            "lotteryChance": 10
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "zone": "East_Ronfaure",
+    "zoneId": 101,
+    "nms": [
+      {
+        "nmName": "Bigmouth Billy",
+        "nmId": 17191196,
+        "placeholders": [
+          {
+            "phId": 17191194,
+            "phName": "Carrion Worm",
+            "lotteryChance": 7
+          },
+          {
+            "phId": 17191195,
+            "phName": "Carrion Worm",
+            "lotteryChance": 7
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "zone": "East_Ronfaure_[S]",
+    "zoneId": 81,
+    "nms": [
+      {
+        "nmName": "Goblintrap",
+        "nmId": 17109296,
+        "placeholders": [
+          {
+            "phId": 17109295,
+            "phName": "Battrap",
+            "lotteryChance": 5
+          }
+        ]
+      },
+      {
+        "nmName": "Skogs Fru",
+        "nmId": 17109338,
+        "placeholders": [
+          {
+            "phId": 17109268,
+            "phName": "Ladybug",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 17109306,
+            "phName": "Ladybug",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 17109307,
+            "phName": "Ladybug",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 17109308,
+            "phName": "Ladybug",
+            "lotteryChance": 5
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "zone": "East_Sarutabaruta",
+    "zoneId": 116,
+    "nms": [
+      {
+        "nmName": "Spiny Spipi",
+        "nmId": 17252657,
+        "placeholders": [
+          {
+            "phId": 17252656,
+            "phName": "Crawler",
+            "lotteryChance": 10
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "zone": "Eastern_Altepa_Desert",
+    "zoneId": 114,
+    "nms": [
+      {
+        "nmName": "Donnergugi",
+        "nmId": 17244268,
+        "placeholders": [
+          {
+            "phId": 17244258,
+            "phName": "Sand Beetle",
+            "lotteryChance": 10
+          },
+          {
+            "phId": 17244263,
+            "phName": "Sand Beetle",
+            "lotteryChance": 10
+          }
+        ]
+      },
+      {
+        "nmName": "Dune Widow",
+        "nmId": 17244396,
+        "placeholders": [
+          {
+            "phId": 17244395,
+            "phName": "Giant Spider",
+            "lotteryChance": 10
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "zone": "FeiYin",
+    "zoneId": 204,
+    "nms": [
+      {
+        "nmName": "Eastern Shadow",
+        "nmId": 17613109,
+        "placeholders": [
+          {
+            "phId": 17613107,
+            "phName": "Specter",
+            "lotteryChance": 5
+          }
+        ]
+      },
+      {
+        "nmName": "Goliath",
+        "nmId": 17613045,
+        "placeholders": [
+          {
+            "phId": 17613052,
+            "phName": "Colossus",
+            "lotteryChance": 10
+          }
+        ]
+      },
+      {
+        "nmName": "Mind Hoarder",
+        "nmId": 17612859,
+        "placeholders": [
+          {
+            "phId": 17612856,
+            "phName": "Clockwork Pod",
+            "lotteryChance": 10
+          },
+          {
+            "phId": 17612857,
+            "phName": "Clockwork Pod",
+            "lotteryChance": 10
+          },
+          {
+            "phId": 17612858,
+            "phName": "Clockwork Pod",
+            "lotteryChance": 10
+          }
+        ]
+      },
+      {
+        "nmName": "Northern Shadow",
+        "nmId": 17613102,
+        "placeholders": [
+          {
+            "phId": 17613098,
+            "phName": "Specter",
+            "lotteryChance": 5
+          }
+        ]
+      },
+      {
+        "nmName": "Southern Shadow",
+        "nmId": 17613120,
+        "placeholders": [
+          {
+            "phId": 17613117,
+            "phName": "Specter",
+            "lotteryChance": 5
+          }
+        ]
+      },
+      {
+        "nmName": "Western Shadow",
+        "nmId": 17613095,
+        "placeholders": [
+          {
+            "phId": 17613094,
+            "phName": "Specter",
+            "lotteryChance": 5
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "zone": "Fort_Ghelsba",
+    "zoneId": 141,
+    "nms": [
+      {
+        "nmName": "Hundredscar Hajwaj",
+        "nmId": 17354828,
+        "placeholders": [
+          {
+            "phId": 17354823,
+            "phName": "Orcish Fodder",
+            "lotteryChance": 10
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "zone": "Fort_Karugo-Narugo_[S]",
+    "zoneId": 96,
+    "nms": [
+      {
+        "nmName": "Demoiselle Desolee",
+        "nmId": 17170569,
+        "placeholders": [
+          {
+            "phId": 17170577,
+            "phName": "Dragonfly",
+            "lotteryChance": 5
+          }
+        ]
+      },
+      {
+        "nmName": "Kirtimukha",
+        "nmId": 17170499,
+        "placeholders": [
+          {
+            "phId": 17170491,
+            "phName": "Rafflesia",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 17170492,
+            "phName": "Rafflesia",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 17170493,
+            "phName": "Rafflesia",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 17170494,
+            "phName": "Rafflesia",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 17170495,
+            "phName": "Rafflesia",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 17170496,
+            "phName": "Rafflesia",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 17170498,
+            "phName": "Rafflesia",
+            "lotteryChance": 5
+          }
+        ]
+      },
+      {
+        "nmName": "Ratatoskr",
+        "nmId": 17170475,
+        "placeholders": [
+          {
+            "phId": 17170472,
+            "phName": "Vorpal Bunny",
+            "lotteryChance": 10
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "zone": "Garlaige_Citadel",
+    "zoneId": 200,
+    "nms": [
+      {
+        "nmName": "Hazmat",
+        "nmId": 17596520,
+        "placeholders": [
+          {
+            "phId": 17596515,
+            "phName": "Explosure",
+            "lotteryChance": 10
+          }
+        ]
+      },
+      {
+        "nmName": "Hovering Hotpot",
+        "nmId": 17596628,
+        "placeholders": [
+          {
+            "phId": 17596623,
+            "phName": "Fallen Major",
+            "lotteryChance": 20
+          },
+          {
+            "phId": 17596625,
+            "phName": "Fallen Mage",
+            "lotteryChance": 20
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "zone": "Ghelsba_Outpost",
+    "zoneId": 140,
+    "nms": [
+      {
+        "nmName": "Thousandarm Deshglesh",
+        "nmId": 17350826,
+        "placeholders": [
+          {
+            "phId": 17350817,
+            "phName": "Orcish Stonechucker",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 17350818,
+            "phName": "Orcish Neckchopper",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 17350819,
+            "phName": "Orcish Grunt",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 17350820,
+            "phName": "Orcish Stonechucker",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 17350821,
+            "phName": "Orcish Neckchopper",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 17350824,
+            "phName": "Orcish Stonechucker",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 17350825,
+            "phName": "Orcish Neckchopper",
+            "lotteryChance": 5
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "zone": "Giddeus",
+    "zoneId": 145,
+    "nms": [
+      {
+        "nmName": "Hoo Mjuu the Torrent",
+        "nmId": 17371515,
+        "placeholders": [
+          {
+            "phId": 17371513,
+            "phName": "Yagudo Mendicant",
+            "lotteryChance": 12
+          }
+        ]
+      },
+      {
+        "nmName": "Juu Duzu the Whirlwind",
+        "nmId": 17371300,
+        "placeholders": [
+          {
+            "phId": 17371291,
+            "phName": "Yagudo Persecutor",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 17371298,
+            "phName": "Yagudo Persecutor",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 17371519,
+            "phName": "Yagudo Persecutor",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 17371525,
+            "phName": "Yagudo Persecutor",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 17371529,
+            "phName": "Yagudo Persecutor",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 17371533,
+            "phName": "Yagudo Persecutor",
+            "lotteryChance": 5
+          }
+        ]
+      },
+      {
+        "nmName": "Vuu Puqu the Beguiler",
+        "nmId": 17371578,
+        "placeholders": [
+          {
+            "phId": 17371577,
+            "phName": "Yagudo Piper",
+            "lotteryChance": 15
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "zone": "Grauberg_[S]",
+    "zoneId": 89,
+    "nms": [
+      {
+        "nmName": "Scitalis",
+        "nmId": 17141979,
+        "placeholders": [
+          {
+            "phId": 17141978,
+            "phName": "Ajattara",
+            "lotteryChance": 10
+          }
+        ]
+      },
+      {
+        "nmName": "Vasiliceratops",
+        "nmId": 17141885,
+        "placeholders": [
+          {
+            "phId": 17141818,
+            "phName": "Wivre",
+            "lotteryChance": 10
+          },
+          {
+            "phId": 17141882,
+            "phName": "Wivre",
+            "lotteryChance": 10
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "zone": "Gustav_Tunnel",
+    "zoneId": 212,
+    "nms": [
+      {
+        "nmName": "Amikiri",
+        "nmId": 17645774,
+        "placeholders": [
+          {
+            "phId": 17645772,
+            "phName": "Antares",
+            "lotteryChance": 5
+          }
+        ]
+      },
+      {
+        "nmName": "Baobhan Sith",
+        "nmId": 17645719,
+        "placeholders": [
+          {
+            "phId": 17645717,
+            "phName": "Erlik",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 17645718,
+            "phName": "Erlik",
+            "lotteryChance": 5
+          }
+        ]
+      },
+      {
+        "nmName": "Goblinsavior Heronox",
+        "nmId": 17645609,
+        "placeholders": [
+          {
+            "phId": 17645604,
+            "phName": "Goblin Reaper",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 17645605,
+            "phName": "Goblin Reaper",
+            "lotteryChance": 5
+          }
+        ]
+      },
+      {
+        "nmName": "Taxim",
+        "nmId": 17645742,
+        "placeholders": [
+          {
+            "phId": 17645731,
+            "phName": "Doom Warlock",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 17645738,
+            "phName": "Doom Warlock",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 17645739,
+            "phName": "Doom Warlock",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 17645744,
+            "phName": "Doom Warlock",
+            "lotteryChance": 5
+          }
+        ]
+      },
+      {
+        "nmName": "Ungur",
+        "nmId": 17645755,
+        "placeholders": [
+          {
+            "phId": 17645754,
+            "phName": "Typhoon Wyvern",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 17645784,
+            "phName": "Typhoon Wyvern",
+            "lotteryChance": 5
+          }
+        ]
+      },
+      {
+        "nmName": "Wyvernpoacher Drachlox",
+        "nmId": 17645640,
+        "placeholders": [
+          {
+            "phId": 17645633,
+            "phName": "Goblin Mercenary",
+            "lotteryChance": 10
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "zone": "Ifrits_Cauldron",
+    "zoneId": 205,
+    "nms": [
+      {
+        "nmName": "Foreseer Oramix",
+        "nmId": 17617062,
+        "placeholders": [
+          {
+            "phId": 17617055,
+            "phName": "Goblin Alchemist",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 17617066,
+            "phName": "Goblin Alchemist",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 17617069,
+            "phName": "Goblin Alchemist",
+            "lotteryChance": 5
+          }
+        ]
+      },
+      {
+        "nmName": "Lindwurm",
+        "nmId": 17617013,
+        "placeholders": [
+          {
+            "phId": 17617007,
+            "phName": "Eotyrannus",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 17617008,
+            "phName": "Eotyrannus",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 17617011,
+            "phName": "Eotyrannus",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 17617012,
+            "phName": "Eotyrannus",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 17617031,
+            "phName": "Eotyrannus",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 17617032,
+            "phName": "Eotyrannus",
+            "lotteryChance": 5
+          }
+        ]
+      },
+      {
+        "nmName": "Tyrannic Tunnok",
+        "nmId": 17616999,
+        "placeholders": [
+          {
+            "phId": 17616996,
+            "phName": "Sulfur Scorpion",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 17617000,
+            "phName": "Sulfur Scorpion",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 17617001,
+            "phName": "Sulfur Scorpion",
+            "lotteryChance": 5
+          }
+        ]
+      },
+      {
+        "nmName": "Vouivre",
+        "nmId": 17617130,
+        "placeholders": [
+          {
+            "phId": 17617117,
+            "phName": "Hurricane Wyvern",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 17617118,
+            "phName": "Hurricane Wyvern",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 17617121,
+            "phName": "Hurricane Wyvern",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 17617122,
+            "phName": "Hurricane Wyvern",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 17617125,
+            "phName": "Hurricane Wyvern",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 17617129,
+            "phName": "Hurricane Wyvern",
+            "lotteryChance": 5
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "zone": "Inner_Horutoto_Ruins",
+    "zoneId": 192,
+    "nms": [
+      {
+        "nmName": "Magicked Bones",
+        "nmId": 17563670,
+        "placeholders": [
+          {
+            "phId": 17563668,
+            "phName": "Goblin Thug",
+            "lotteryChance": 50
+          }
+        ]
+      },
+      {
+        "nmName": "Magicked Bones",
+        "nmId": 17563671,
+        "placeholders": [
+          {
+            "phId": 17563669,
+            "phName": "Goblin Weaver"
+          }
+        ]
+      },
+      {
+        "nmName": "Nocuous Weapon",
+        "nmId": 17563801,
+        "placeholders": [
+          {
+            "phId": 17563798,
+            "phName": "Boggart",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 17563799,
+            "phName": "Boggart",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 17563800,
+            "phName": "Boggart",
+            "lotteryChance": 5
+          }
+        ]
+      },
+      {
+        "nmName": "Slendlix Spindlethumb",
+        "nmId": 17563785,
+        "placeholders": [
+          {
+            "phId": 17563758,
+            "phName": "Goblin Leecher",
+            "lotteryChance": 10
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "zone": "Jugner_Forest",
+    "zoneId": 104,
+    "nms": [
+      {
+        "nmName": "Fradubio",
+        "nmId": 17203448,
+        "placeholders": [
+          {
+            "phId": 17203447,
+            "phName": "Fraelissa",
+            "lotteryChance": 10
+          }
+        ]
+      },
+      {
+        "nmName": "Supplespine Mujwuj",
+        "nmId": 17203475,
+        "placeholders": [
+          {
+            "phId": 17203437,
+            "phName": "Orcish Grunt",
+            "lotteryChance": 10
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "zone": "Jugner_Forest_[S]",
+    "zoneId": 82,
+    "nms": [
+      {
+        "nmName": "Drumskull Zogdregg",
+        "nmId": 17113381,
+        "placeholders": [
+          {
+            "phId": 17113380,
+            "phName": "Orcish Veteran",
+            "lotteryChance": 10
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "zone": "King_Ranperres_Tomb",
+    "zoneId": 190,
+    "nms": [
+      {
+        "nmName": "Crypt Ghost",
+        "nmId": 17555668,
+        "placeholders": [
+          {
+            "phId": 17555665,
+            "phName": "Tomb Bat",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 17555666,
+            "phName": "Tomb Bat",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 17555667,
+            "phName": "Tomb Bat",
+            "lotteryChance": 5
+          }
+        ]
+      },
+      {
+        "nmName": "Gwyllgi",
+        "nmId": 17555664,
+        "placeholders": [
+          {
+            "phId": 17555661,
+            "phName": "Nachzehrer",
+            "lotteryChance": 10
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "zone": "Konschtat_Highlands",
+    "zoneId": 108,
+    "nms": [
+      {
+        "nmName": "Rampaging Ram",
+        "nmId": 17219886,
+        "placeholders": [
+          {
+            "phId": 17219885,
+            "phName": "Tremor Ram",
+            "lotteryChance": 10
+          },
+          {
+            "phId": 17219987,
+            "phName": "Tremor Ram",
+            "lotteryChance": 10
+          }
+        ]
+      },
+      {
+        "nmName": "Steelfleece Baldarich",
+        "nmId": 17219887,
+        "placeholders": [
+          {
+            "phId": 17219886,
+            "phName": "Rampaging Ram",
+            "lotteryChance": 10
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "zone": "Korroloka_Tunnel",
+    "zoneId": 173,
+    "nms": [
+      {
+        "nmName": "Cargo Crab Colin",
+        "nmId": 17485980,
+        "placeholders": [
+          {
+            "phId": 17486002,
+            "phName": "Clipper",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 17486004,
+            "phName": "Clipper",
+            "lotteryChance": 5
+          }
+        ]
+      },
+      {
+        "nmName": "Dame Blanche",
+        "nmId": 17486129,
+        "placeholders": [
+          {
+            "phId": 17486118,
+            "phName": "Bogy",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 17486119,
+            "phName": "Bogy",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 17486124,
+            "phName": "Bogy",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 17486125,
+            "phName": "Bogy",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 17486126,
+            "phName": "Bogy",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 17486127,
+            "phName": "Bogy",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 17486128,
+            "phName": "Bogy",
+            "lotteryChance": 5
+          }
+        ]
+      },
+      {
+        "nmName": "Falcatus Aranei",
+        "nmId": 17486031,
+        "placeholders": [
+          {
+            "phId": 17486027,
+            "phName": "Huge Spider",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 17486028,
+            "phName": "Huge Spider",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 17486032,
+            "phName": "Huge Spider",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 17486033,
+            "phName": "Huge Spider",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 17486034,
+            "phName": "Huge Spider",
+            "lotteryChance": 5
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "zone": "Kuftal_Tunnel",
+    "zoneId": 174,
+    "nms": [
+      {
+        "nmName": "Amemet",
+        "nmId": 17490016,
+        "placeholders": [
+          {
+            "phId": 17489932,
+            "phName": "Sand Lizard",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 17489933,
+            "phName": "Sand Lizard",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 17489934,
+            "phName": "Sand Lizard",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 17489994,
+            "phName": "Sand Lizard",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 17490000,
+            "phName": "Sand Lizard",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 17490001,
+            "phName": "Sand Lizard",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 17490002,
+            "phName": "Sand Lizard",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 17490003,
+            "phName": "Sand Lizard",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 17490004,
+            "phName": "Sand Lizard",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 17490005,
+            "phName": "Sand Lizard",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 17490008,
+            "phName": "Sand Lizard",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 17490009,
+            "phName": "Sand Lizard",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 17490010,
+            "phName": "Sand Lizard",
+            "lotteryChance": 5
+          }
+        ]
+      },
+      {
+        "nmName": "Arachne",
+        "nmId": 17490217,
+        "placeholders": [
+          {
+            "phId": 17490219,
+            "phName": "Recluse Spider",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 17490220,
+            "phName": "Recluse Spider",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 17490221,
+            "phName": "Recluse Spider",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 17490222,
+            "phName": "Recluse Spider",
+            "lotteryChance": 5
+          }
+        ]
+      },
+      {
+        "nmName": "Bloodthirster Madkix",
+        "nmId": 17490159,
+        "placeholders": [
+          {
+            "phId": 17490158,
+            "phName": "Goblin Mercenary",
+            "lotteryChance": 5
+          }
+        ]
+      },
+      {
+        "nmName": "Pelican",
+        "nmId": 17490101,
+        "placeholders": [
+          {
+            "phId": 17490097,
+            "phName": "Greater Cockatrice",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 17490098,
+            "phName": "Greater Cockatrice",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 17490100,
+            "phName": "Greater Cockatrice",
+            "lotteryChance": 5
+          }
+        ]
+      },
+      {
+        "nmName": "Sabotender Mariachi",
+        "nmId": 17489980,
+        "placeholders": [
+          {
+            "phId": 17489971,
+            "phName": "Sabotender Sediendo",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 17489974,
+            "phName": "Sabotender Sediendo",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 17489975,
+            "phName": "Sabotender Sediendo",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 17489977,
+            "phName": "Sabotender Sediendo",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 17489978,
+            "phName": "Sabotender Sediendo",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 17489979,
+            "phName": "Sabotender Sediendo",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 17489981,
+            "phName": "Sabotender Sediendo",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 17489982,
+            "phName": "Sabotender Sediendo",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 17489983,
+            "phName": "Sabotender Sediendo",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 17489984,
+            "phName": "Sabotender Sediendo",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 17489985,
+            "phName": "Sabotender Sediendo",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 17489987,
+            "phName": "Sabotender Sediendo",
+            "lotteryChance": 5
+          }
+        ]
+      },
+      {
+        "nmName": "Yowie",
+        "nmId": 17490204,
+        "placeholders": [
+          {
+            "phId": 17490201,
+            "phName": "Deinonychus",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 17490203,
+            "phName": "Deinonychus",
+            "lotteryChance": 5
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "zone": "La_Theine_Plateau",
+    "zoneId": 102,
+    "nms": [
+      {
+        "nmName": "Bloodtear Baldurf",
+        "nmId": 17195318,
+        "placeholders": [
+          {
+            "phId": 17195317,
+            "phName": "Lumbering Lambert",
+            "lotteryChance": 10
+          }
+        ]
+      },
+      {
+        "nmName": "Lumbering Lambert",
+        "nmId": 17195317,
+        "placeholders": [
+          {
+            "phId": 17195143,
+            "phName": "Battering Ram",
+            "lotteryChance": 10
+          },
+          {
+            "phId": 17195316,
+            "phName": "Battering Ram",
+            "lotteryChance": 10
+          },
+          {
+            "phId": 17195318,
+            "phName": "Bloodtear Baldurf"
+          }
+        ]
+      },
+      {
+        "nmName": "Tumbling Truffle",
+        "nmId": 17195259,
+        "placeholders": [
+          {
+            "phId": 17195256,
+            "phName": "Poison Funguar",
+            "lotteryChance": 5
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "zone": "La_Vaule_[S]",
+    "zoneId": 85,
+    "nms": [
+      {
+        "nmName": "Ashmaker Gotblut",
+        "nmId": 17125452,
+        "placeholders": [
+          {
+            "phId": 17125450,
+            "phName": "Orcish Augur",
+            "lotteryChance": 10
+          }
+        ]
+      },
+      {
+        "nmName": "Hawkeyed Dnatbat",
+        "nmId": 17125433,
+        "placeholders": [
+          {
+            "phId": 17125431,
+            "phName": "Orcish Bowshooter",
+            "lotteryChance": 10
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "zone": "Labyrinth_of_Onzozo",
+    "zoneId": 213,
+    "nms": [
+      {
+        "nmName": "Hellion",
+        "nmId": 17649795,
+        "placeholders": [
+          {
+            "phId": 17649810,
+            "phName": "Tainted Flesh",
+            "lotteryChance": 10
+          }
+        ]
+      },
+      {
+        "nmName": "Lord of Onzozo",
+        "nmId": 17649731,
+        "placeholders": [
+          {
+            "phId": 17649730,
+            "phName": "Flying Manta",
+            "lotteryChance": 4
+          }
+        ]
+      },
+      {
+        "nmName": "Narasimha",
+        "nmId": 17649784,
+        "placeholders": [
+          {
+            "phId": 17649783,
+            "phName": "Labyrinth Manticore",
+            "lotteryChance": 10
+          }
+        ]
+      },
+      {
+        "nmName": "Ose",
+        "nmId": 17649822,
+        "placeholders": [
+          {
+            "phId": 17649813,
+            "phName": "Torama",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 17649814,
+            "phName": "Torama",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 17649815,
+            "phName": "Torama",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 17649816,
+            "phName": "Torama",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 17649819,
+            "phName": "Torama",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 17649820,
+            "phName": "Torama",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 17649823,
+            "phName": "Torama",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 17649824,
+            "phName": "Torama",
+            "lotteryChance": 5
+          }
+        ]
+      },
+      {
+        "nmName": "Soulstealer Skullnix",
+        "nmId": 17649818,
+        "placeholders": [
+          {
+            "phId": 17649831,
+            "phName": "Goblin Bandit",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 17649834,
+            "phName": "Goblin Mercenary",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 17649838,
+            "phName": "Goblin Shepherd",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 17649843,
+            "phName": "Goblin Shepherd",
+            "lotteryChance": 5
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "zone": "Lower_Delkfutts_Tower",
+    "zoneId": 184,
+    "nms": [
+      {
+        "nmName": "Epialtes",
+        "nmId": 17530881,
+        "placeholders": [
+          {
+            "phId": 17530882,
+            "phName": "Giant Gatekeeper",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 17530887,
+            "phName": "Giant Gatekeeper",
+            "lotteryChance": 5
+          }
+        ]
+      },
+      {
+        "nmName": "Eurymedon",
+        "nmId": 17531114,
+        "placeholders": [
+          {
+            "phId": 17531118,
+            "phName": "Giant Sentry",
+            "lotteryChance": 5
+          }
+        ]
+      },
+      {
+        "nmName": "Hippolytos",
+        "nmId": 17530999,
+        "placeholders": [
+          {
+            "phId": 17531000,
+            "phName": "Giant Gatekeeper",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 17531002,
+            "phName": "Giant Sentry",
+            "lotteryChance": 5
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "zone": "Lufaise_Meadows",
+    "zoneId": 24,
+    "nms": [
+      {
+        "nmName": "Megalobugard",
+        "nmId": 16875741,
+        "placeholders": [
+          {
+            "phId": 16875720,
+            "phName": "Gigantobugard",
+            "lotteryChance": 10
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "zone": "Mamook",
+    "zoneId": 65,
+    "nms": [
+      {
+        "nmName": "Firedance Magmaal Ja",
+        "nmId": 17043779,
+        "placeholders": [
+          {
+            "phId": 17043773,
+            "phName": "Watch Wyvern",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 17043774,
+            "phName": "Watch Wyvern",
+            "lotteryChance": 5
+          }
+        ]
+      },
+      {
+        "nmName": "Zizzy Zillah",
+        "nmId": 17043554,
+        "placeholders": [
+          {
+            "phId": 17043560,
+            "phName": "Ziz",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 17043561,
+            "phName": "Ziz",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 17043562,
+            "phName": "Ziz",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 17043563,
+            "phName": "Ziz",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 17043564,
+            "phName": "Ziz",
+            "lotteryChance": 5
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "zone": "Maze_of_Shakhrami",
+    "zoneId": 198,
+    "nms": [
+      {
+        "nmName": "Trembler Tabitha",
+        "nmId": 17588278,
+        "placeholders": [
+          {
+            "phId": 17588276,
+            "phName": "Maze Maker",
+            "lotteryChance": 10
+          },
+          {
+            "phId": 17588277,
+            "phName": "Maze Maker",
+            "lotteryChance": 10
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "zone": "Meriphataud_Mountains",
+    "zoneId": 119,
+    "nms": [
+      {
+        "nmName": "Daggerclaw Dracos",
+        "nmId": 17264818,
+        "placeholders": [
+          {
+            "phId": 17264815,
+            "phName": "Raptor",
+            "lotteryChance": 10
+          }
+        ]
+      },
+      {
+        "nmName": "Naa Zeku the Unwaiting",
+        "nmId": 17264768,
+        "placeholders": [
+          {
+            "phId": 17264763,
+            "phName": "Yagudo Persecutor",
+            "lotteryChance": 10
+          }
+        ]
+      },
+      {
+        "nmName": "Patripatan",
+        "nmId": 17264972,
+        "placeholders": [
+          {
+            "phId": 17264967,
+            "phName": "Coeurl",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 17264968,
+            "phName": "Coeurl",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 17264969,
+            "phName": "Coeurl",
+            "lotteryChance": 5
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "zone": "Meriphataud_Mountains_[S]",
+    "zoneId": 97,
+    "nms": [
+      {
+        "nmName": "Centipedal Centruroides",
+        "nmId": 17174709,
+        "placeholders": [
+          {
+            "phId": 17174708,
+            "phName": "Mountain Scolopendrid",
+            "lotteryChance": 10
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "zone": "Middle_Delkfutts_Tower",
+    "zoneId": 157,
+    "nms": [
+      {
+        "nmName": "Eurytos",
+        "nmId": 17420324,
+        "placeholders": [
+          {
+            "phId": 17420316,
+            "phName": "Giant Sentry",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 17420321,
+            "phName": "Giant Sentry",
+            "lotteryChance": 5
+          }
+        ]
+      },
+      {
+        "nmName": "Ogygos",
+        "nmId": 17420592,
+        "placeholders": [
+          {
+            "phId": 17420593,
+            "phName": "Gigas Wallwatcher",
+            "lotteryChance": 5
+          }
+        ]
+      },
+      {
+        "nmName": "Ophion",
+        "nmId": 17420529,
+        "placeholders": [
+          {
+            "phId": 17420513,
+            "phName": "Gigas Kettlemaster",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 17420518,
+            "phName": "Gigas Kettlemaster",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 17420527,
+            "phName": "Gigas Kettlemaster",
+            "lotteryChance": 5
+          }
+        ]
+      },
+      {
+        "nmName": "Polybotes",
+        "nmId": 17420382,
+        "placeholders": [
+          {
+            "phId": 17420378,
+            "phName": "Giant Guard",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 17420381,
+            "phName": "Giant Lobber",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 17420383,
+            "phName": "Giant Gatekeeper",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 17420384,
+            "phName": "Giant Guard",
+            "lotteryChance": 5
+          }
+        ]
+      },
+      {
+        "nmName": "Rhoikos",
+        "nmId": 17420555,
+        "placeholders": [
+          {
+            "phId": 17420554,
+            "phName": "Gigas Quarrier",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 17420566,
+            "phName": "Gigas Quarrier",
+            "lotteryChance": 5
+          }
+        ]
+      },
+      {
+        "nmName": "Rhoitos",
+        "nmId": 17420417,
+        "placeholders": [
+          {
+            "phId": 17420412,
+            "phName": "Giant Lobber",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 17420418,
+            "phName": "Giant Gatekeeper",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 17420419,
+            "phName": "Giant Guard",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 17420420,
+            "phName": "Giant Sentry",
+            "lotteryChance": 5
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "zone": "Misareaux_Coast",
+    "zoneId": 25,
+    "nms": [
+      {
+        "nmName": "Okyupete",
+        "nmId": 16879847,
+        "placeholders": [
+          {
+            "phId": 16879839,
+            "phName": "Diatryma",
+            "lotteryChance": 10
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "zone": "Mount_Zhayolm",
+    "zoneId": 61,
+    "nms": [
+      {
+        "nmName": "Energetic Eruca",
+        "nmId": 17027466,
+        "placeholders": [
+          {
+            "phId": 17027145,
+            "phName": "Magmatic Eruca",
+            "lotteryChance": 10
+          },
+          {
+            "phId": 17027146,
+            "phName": "Magmatic Eruca",
+            "lotteryChance": 10
+          }
+        ]
+      },
+      {
+        "nmName": "Ignamoth",
+        "nmId": 17027423,
+        "placeholders": [
+          {
+            "phId": 17027421,
+            "phName": "Wamoura",
+            "lotteryChance": 10
+          },
+          {
+            "phId": 17027422,
+            "phName": "Wamoura",
+            "lotteryChance": 10
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "zone": "North_Gustaberg",
+    "zoneId": 106,
+    "nms": [
+      {
+        "nmName": "Maighdean Uaine",
+        "nmId": 17211702,
+        "placeholders": [
+          {
+            "phId": 17211697,
+            "phName": "Walking Sapling",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 17211698,
+            "phName": "Walking Sapling",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 17211699,
+            "phName": "Walking Sapling",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 17211700,
+            "phName": "Walking Sapling",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 17211701,
+            "phName": "Walking Sapling",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 17211710,
+            "phName": "Walking Sapling",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 17211711,
+            "phName": "Walking Sapling",
+            "lotteryChance": 5
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "zone": "North_Gustaberg_[S]",
+    "zoneId": 88,
+    "nms": [
+      {
+        "nmName": "Ankabut",
+        "nmId": 17137705,
+        "placeholders": [
+          {
+            "phId": 17137701,
+            "phName": "Huge Spider",
+            "lotteryChance": 10
+          }
+        ]
+      },
+      {
+        "nmName": "Gloomanita",
+        "nmId": 17137821,
+        "placeholders": [
+          {
+            "phId": 17137820,
+            "phName": "Coppercap",
+            "lotteryChance": 10
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "zone": "Ordelles_Caves",
+    "zoneId": 193,
+    "nms": [
+      {
+        "nmName": "Agar Agar",
+        "nmId": 17567901,
+        "placeholders": [
+          {
+            "phId": 17567897,
+            "phName": "Jelly",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 17567898,
+            "phName": "Jelly",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 17567899,
+            "phName": "Jelly",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 17567900,
+            "phName": "Jelly",
+            "lotteryChance": 5
+          }
+        ]
+      },
+      {
+        "nmName": "Donggu",
+        "nmId": 17567801,
+        "placeholders": [
+          {
+            "phId": 17567797,
+            "phName": "Fly Agaric",
+            "lotteryChance": 10
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "zone": "Outer_Horutoto_Ruins",
+    "zoneId": 194,
+    "nms": [
+      {
+        "nmName": "Ah Puch",
+        "nmId": 17571903,
+        "placeholders": [
+          {
+            "phId": 17571893,
+            "phName": "Ghoul",
+            "lotteryChance": 20
+          },
+          {
+            "phId": 17571894,
+            "phName": "Ghoul",
+            "lotteryChance": 20
+          },
+          {
+            "phId": 17571895,
+            "phName": "Ghoul",
+            "lotteryChance": 20
+          },
+          {
+            "phId": 17571896,
+            "phName": "Ghoul",
+            "lotteryChance": 20
+          },
+          {
+            "phId": 17571897,
+            "phName": "Ghoul",
+            "lotteryChance": 20
+          },
+          {
+            "phId": 17571898,
+            "phName": "Ghoul",
+            "lotteryChance": 20
+          },
+          {
+            "phId": 17571899,
+            "phName": "Ghoul",
+            "lotteryChance": 20
+          },
+          {
+            "phId": 17571900,
+            "phName": "Ghoul",
+            "lotteryChance": 20
+          }
+        ]
+      },
+      {
+        "nmName": "Desmodont",
+        "nmId": 17571870,
+        "placeholders": [
+          {
+            "phId": 17571868,
+            "phName": "Stink Bats",
+            "lotteryChance": 10
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "zone": "Palborough_Mines",
+    "zoneId": 143,
+    "nms": [
+      {
+        "nmName": "Be'Hya Hundredwall",
+        "nmId": 17363258,
+        "placeholders": [
+          {
+            "phId": 17363256,
+            "phName": "Old Quadav",
+            "lotteryChance": 10
+          },
+          {
+            "phId": 17363257,
+            "phName": "Copper Quadav",
+            "lotteryChance": 10
+          }
+        ]
+      },
+      {
+        "nmName": "Bu'Ghi Howlblade",
+        "nmId": 17363181,
+        "placeholders": [
+          {
+            "phId": 17363177,
+            "phName": "Copper Beetle",
+            "lotteryChance": 10
+          },
+          {
+            "phId": 17363178,
+            "phName": "Copper Beetle",
+            "lotteryChance": 10
+          },
+          {
+            "phId": 17363179,
+            "phName": "Copper Beetle",
+            "lotteryChance": 10
+          },
+          {
+            "phId": 17363180,
+            "phName": "Copper Beetle",
+            "lotteryChance": 10
+          }
+        ]
+      },
+      {
+        "nmName": "Zi'Ghi Boneeater",
+        "nmId": 17363208,
+        "placeholders": [
+          {
+            "phId": 17363205,
+            "phName": "Veteran Quadav",
+            "lotteryChance": 20
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "zone": "Pashhow_Marshlands",
+    "zoneId": 109,
+    "nms": [
+      {
+        "nmName": "Bloodpool Vorax",
+        "nmId": 17224019,
+        "placeholders": [
+          {
+            "phId": 17224014,
+            "phName": "Thread Leech",
+            "lotteryChance": 5
+          }
+        ]
+      },
+      {
+        "nmName": "Jolly Green",
+        "nmId": 17223889,
+        "placeholders": [
+          {
+            "phId": 17223888,
+            "phName": "Goobbue",
+            "lotteryChance": 5
+          }
+        ]
+      },
+      {
+        "nmName": "Ni'Zho Bladebender",
+        "nmId": 17223797,
+        "placeholders": [
+          {
+            "phId": 17223740,
+            "phName": "Veteran Quadav",
+            "lotteryChance": 10
+          },
+          {
+            "phId": 17223789,
+            "phName": "Veteran Quadav",
+            "lotteryChance": 10
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "zone": "Pashhow_Marshlands_[S]",
+    "zoneId": 90,
+    "nms": [
+      {
+        "nmName": "Nommo",
+        "nmId": 17146012,
+        "placeholders": [
+          {
+            "phId": 17146007,
+            "phName": "Lou Carcolh",
+            "lotteryChance": 10
+          }
+        ]
+      },
+      {
+        "nmName": "Sugaar",
+        "nmId": 17145867,
+        "placeholders": [
+          {
+            "phId": 17145862,
+            "phName": "Virulent Peiste",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 17145863,
+            "phName": "Virulent Peiste",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 17145864,
+            "phName": "Virulent Peiste",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 17145865,
+            "phName": "Virulent Peiste",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 17145866,
+            "phName": "Virulent Peiste",
+            "lotteryChance": 5
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "zone": "Qufim_Island",
+    "zoneId": 126,
+    "nms": [
+      {
+        "nmName": "Slippery Sucker",
+        "nmId": 17293389,
+        "placeholders": [
+          {
+            "phId": 17293376,
+            "phName": "Giant Ranger",
+            "lotteryChance": 10
+          },
+          {
+            "phId": 17293377,
+            "phName": "Giant Ascetic",
+            "lotteryChance": 10
+          },
+          {
+            "phId": 17293378,
+            "phName": "Giant Trapper",
+            "lotteryChance": 10
+          },
+          {
+            "phId": 17293380,
+            "phName": "Giant Hunter",
+            "lotteryChance": 10
+          }
+        ]
+      },
+      {
+        "nmName": "Trickster Kinetix",
+        "nmId": 17293537,
+        "placeholders": [
+          {
+            "phId": 17293533,
+            "phName": "Dancing Weapon",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 17293534,
+            "phName": "Dancing Weapon",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 17293535,
+            "phName": "Dancing Weapon",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 17293536,
+            "phName": "Dancing Weapon",
+            "lotteryChance": 5
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "zone": "Quicksand_Caves",
+    "zoneId": 208,
+    "nms": [
+      {
+        "nmName": "Antican Magister",
+        "nmId": 17629412,
+        "placeholders": [
+          {
+            "phId": 17629409,
+            "phName": "Antican Hastatus",
+            "lotteryChance": 10
+          },
+          {
+            "phId": 17629410,
+            "phName": "Antican Princeps",
+            "lotteryChance": 10
+          },
+          {
+            "phId": 17629411,
+            "phName": "Antican Signifer",
+            "lotteryChance": 10
+          }
+        ]
+      },
+      {
+        "nmName": "Antican Praefectus",
+        "nmId": 17629281,
+        "placeholders": [
+          {
+            "phId": 17629280,
+            "phName": "Antican Princeps",
+            "lotteryChance": 10
+          }
+        ]
+      },
+      {
+        "nmName": "Antican Proconsul",
+        "nmId": 17629421,
+        "placeholders": [
+          {
+            "phId": 17629420,
+            "phName": "Antican Signifer",
+            "lotteryChance": 10
+          }
+        ]
+      },
+      {
+        "nmName": "Antican Tribunus",
+        "nmId": 17629483,
+        "placeholders": [
+          {
+            "phId": 17629501,
+            "phName": "Antican Aedilis",
+            "lotteryChance": 10
+          }
+        ]
+      },
+      {
+        "nmName": "Diamond Daig",
+        "nmId": 17629430,
+        "placeholders": [
+          {
+            "phId": 17629439,
+            "phName": "Helm Beetle",
+            "lotteryChance": 10
+          }
+        ]
+      },
+      {
+        "nmName": "Nussknacker",
+        "nmId": 17629403,
+        "placeholders": [
+          {
+            "phId": 17629396,
+            "phName": "Sand Lizard",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 17629397,
+            "phName": "Sand Lizard",
+            "lotteryChance": 5
+          }
+        ]
+      },
+      {
+        "nmName": "Sabotender Bailarin",
+        "nmId": 17629264,
+        "placeholders": [
+          {
+            "phId": 17629261,
+            "phName": "Sabotender Bailaor",
+            "lotteryChance": 100
+          },
+          {
+            "phId": 17629262,
+            "phName": "Sabotender Bailaor",
+            "lotteryChance": 100
+          }
+        ]
+      },
+      {
+        "nmName": "Sabotender Bailarina",
+        "nmId": 17629587,
+        "placeholders": [
+          {
+            "phId": 17629582,
+            "phName": "Spelunking Sabotender",
+            "lotteryChance": 10
+          },
+          {
+            "phId": 17629586,
+            "phName": "Spelunking Sabotender",
+            "lotteryChance": 10
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "zone": "Ranguemont_Pass",
+    "zoneId": 166,
+    "nms": [
+      {
+        "nmName": "Gloom Eye",
+        "nmId": 17457204,
+        "placeholders": [
+          {
+            "phId": 17457200,
+            "phName": "Seeker Bats",
+            "lotteryChance": 10
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "zone": "Riverne-Site_A01",
+    "zoneId": 30,
+    "nms": [
+      {
+        "nmName": "Aiatar",
+        "nmId": 16900306,
+        "placeholders": [
+          {
+            "phId": 16900301,
+            "phName": "Flamedrake",
+            "lotteryChance": 10
+          },
+          {
+            "phId": 16900302,
+            "phName": "Flamedrake",
+            "lotteryChance": 10
+          },
+          {
+            "phId": 16900303,
+            "phName": "Flamedrake",
+            "lotteryChance": 10
+          },
+          {
+            "phId": 16900304,
+            "phName": "Flamedrake",
+            "lotteryChance": 10
+          },
+          {
+            "phId": 16900305,
+            "phName": "Flamedrake",
+            "lotteryChance": 10
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "zone": "Riverne-Site_B01",
+    "zoneId": 29,
+    "nms": [
+      {
+        "nmName": "Imdugud",
+        "nmId": 16896107,
+        "placeholders": [
+          {
+            "phId": 16896101,
+            "phName": "Nimbus Hippogryph",
+            "lotteryChance": 10
+          },
+          {
+            "phId": 16896102,
+            "phName": "Nimbus Hippogryph",
+            "lotteryChance": 10
+          },
+          {
+            "phId": 16896103,
+            "phName": "Nimbus Hippogryph",
+            "lotteryChance": 10
+          },
+          {
+            "phId": 16896104,
+            "phName": "Nimbus Hippogryph",
+            "lotteryChance": 10
+          },
+          {
+            "phId": 16896105,
+            "phName": "Nimbus Hippogryph",
+            "lotteryChance": 10
+          },
+          {
+            "phId": 16896106,
+            "phName": "Nimbus Hippogryph",
+            "lotteryChance": 10
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "zone": "RoMaeve",
+    "zoneId": 122,
+    "nms": [
+      {
+        "nmName": "Rogue Receptacle",
+        "nmId": 17277079,
+        "placeholders": [
+          {
+            "phId": 17277075,
+            "phName": "Magic Flagon",
+            "lotteryChance": 10
+          },
+          {
+            "phId": 17277078,
+            "phName": "Magic Flagon",
+            "lotteryChance": 10
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "zone": "Rolanberry_Fields",
+    "zoneId": 110,
+    "nms": [
+      {
+        "nmName": "Drooling Daisy",
+        "nmId": 17228236,
+        "placeholders": [
+          {
+            "phId": 17228235,
+            "phName": "Ochu",
+            "lotteryChance": 10
+          }
+        ]
+      },
+      {
+        "nmName": "Eldritch Edge",
+        "nmId": 17228150,
+        "placeholders": [
+          {
+            "phId": 17228148,
+            "phName": "Evil Weapon",
+            "lotteryChance": 10
+          },
+          {
+            "phId": 17228149,
+            "phName": "Evil Weapon",
+            "lotteryChance": 10
+          },
+          {
+            "phId": 17228152,
+            "phName": "Evil Weapon",
+            "lotteryChance": 10
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "zone": "Rolanberry_Fields_[S]",
+    "zoneId": 91,
+    "nms": [
+      {
+        "nmName": "Delicieuse Delphine",
+        "nmId": 17150280,
+        "placeholders": [
+          {
+            "phId": 17150279,
+            "phName": "Ochu"
+          }
+        ]
+      },
+      {
+        "nmName": "Dyinyinga",
+        "nmId": 17150047,
+        "placeholders": [
+          {
+            "phId": 17150046,
+            "phName": "Scabrous Slug",
+            "lotteryChance": 10
+          }
+        ]
+      },
+      {
+        "nmName": "Erle",
+        "nmId": 17150081,
+        "placeholders": [
+          {
+            "phId": 17150075,
+            "phName": "Death Jacket",
+            "lotteryChance": 10
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "zone": "RuAun_Gardens",
+    "zoneId": 130,
+    "nms": [
+      {
+        "nmName": "Despot",
+        "nmId": 17309954,
+        "placeholders": [
+          {
+            "phId": 17309938,
+            "phName": "Groundskeeper",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 17309939,
+            "phName": "Groundskeeper",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 17309940,
+            "phName": "Groundskeeper",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 17309941,
+            "phName": "Groundskeeper",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 17309942,
+            "phName": "Groundskeeper",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 17309943,
+            "phName": "Groundskeeper",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 17309944,
+            "phName": "Groundskeeper",
+            "lotteryChance": 5
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "zone": "Sauromugue_Champaign",
+    "zoneId": 120,
+    "nms": [
+      {
+        "nmName": "Bashe",
+        "nmId": 17268788,
+        "placeholders": [
+          {
+            "phId": 17268782,
+            "phName": "Hill Lizard",
+            "lotteryChance": 10
+          }
+        ]
+      },
+      {
+        "nmName": "Blighting Brand",
+        "nmId": 17269016,
+        "placeholders": [
+          {
+            "phId": 17269013,
+            "phName": "Evil Weapon",
+            "lotteryChance": 20
+          }
+        ]
+      },
+      {
+        "nmName": "Deadly Dodo",
+        "nmId": 17268851,
+        "placeholders": [
+          {
+            "phId": 17268849,
+            "phName": "Tabar Beak",
+            "lotteryChance": 33
+          },
+          {
+            "phId": 17268850,
+            "phName": "Tabar Beak",
+            "lotteryChance": 33
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "zone": "Sea_Serpent_Grotto",
+    "zoneId": 176,
+    "nms": [
+      {
+        "nmName": "Charybdis",
+        "nmId": 17498522,
+        "placeholders": [
+          {
+            "phId": 17498518,
+            "phName": "Devil Manta",
+            "lotteryChance": 10
+          },
+          {
+            "phId": 17498520,
+            "phName": "Devil Manta",
+            "lotteryChance": 10
+          }
+        ]
+      },
+      {
+        "nmName": "Denn the Orcavoiced",
+        "nmId": 17498464,
+        "placeholders": [
+          {
+            "phId": 17498461,
+            "phName": "Coastal Sahagin",
+            "lotteryChance": 10
+          }
+        ]
+      },
+      {
+        "nmName": "Fyuu the Seabellow",
+        "nmId": 17498269,
+        "placeholders": [
+          {
+            "phId": 17498266,
+            "phName": "Riparian Sahagin",
+            "lotteryChance": 10
+          }
+        ]
+      },
+      {
+        "nmName": "Masan",
+        "nmId": 17498159,
+        "placeholders": [
+          {
+            "phId": 17498155,
+            "phName": "Royal Leech",
+            "lotteryChance": 10
+          },
+          {
+            "phId": 17498156,
+            "phName": "Royal Leech",
+            "lotteryChance": 10
+          }
+        ]
+      },
+      {
+        "nmName": "Mouu the Waverider",
+        "nmId": 17498356,
+        "placeholders": [
+          {
+            "phId": 17498355,
+            "phName": "Bog Sahagin",
+            "lotteryChance": 10
+          }
+        ]
+      },
+      {
+        "nmName": "Namtar",
+        "nmId": 17498184,
+        "placeholders": [
+          {
+            "phId": 17498178,
+            "phName": "Ghast",
+            "lotteryChance": 10
+          },
+          {
+            "phId": 17498183,
+            "phName": "Ghast",
+            "lotteryChance": 10
+          }
+        ]
+      },
+      {
+        "nmName": "Novv the Whitehearted",
+        "nmId": 17498445,
+        "placeholders": [
+          {
+            "phId": 17498444,
+            "phName": "Lagoon Sahagin",
+            "lotteryChance": 10
+          }
+        ]
+      },
+      {
+        "nmName": "Pahh the Gullcaller",
+        "nmId": 17498341,
+        "placeholders": [
+          {
+            "phId": 17498336,
+            "phName": "Swamp Sahagin",
+            "lotteryChance": 10
+          }
+        ]
+      },
+      {
+        "nmName": "Qull the Shellbuster",
+        "nmId": 17498285,
+        "placeholders": [
+          {
+            "phId": 17498280,
+            "phName": "Brook Sahagin",
+            "lotteryChance": 10
+          },
+          {
+            "phId": 17498283,
+            "phName": "Brook Sahagin",
+            "lotteryChance": 10
+          }
+        ]
+      },
+      {
+        "nmName": "Sea Hog",
+        "nmId": 17498420,
+        "placeholders": [
+          {
+            "phId": 17498418,
+            "phName": "Razorjaw Pugil",
+            "lotteryChance": 10
+          },
+          {
+            "phId": 17498419,
+            "phName": "Razorjaw Pugil",
+            "lotteryChance": 10
+          }
+        ]
+      },
+      {
+        "nmName": "Seww the Squidlimbed",
+        "nmId": 17498301,
+        "placeholders": [
+          {
+            "phId": 17498298,
+            "phName": "Riparian Sahagin",
+            "lotteryChance": 10
+          }
+        ]
+      },
+      {
+        "nmName": "Voll the Sharkfinned",
+        "nmId": 17498428,
+        "placeholders": [
+          {
+            "phId": 17498426,
+            "phName": "Marsh Sahagin",
+            "lotteryChance": 10
+          }
+        ]
+      },
+      {
+        "nmName": "Worr the Clawfisted",
+        "nmId": 17498413,
+        "placeholders": [
+          {
+            "phId": 17498410,
+            "phName": "Marsh Sahagin",
+            "lotteryChance": 10
+          }
+        ]
+      },
+      {
+        "nmName": "Wuur the Sandcomber",
+        "nmId": 17498199,
+        "placeholders": [
+          {
+            "phId": 17498195,
+            "phName": "Spring Sahagin",
+            "lotteryChance": 10
+          }
+        ]
+      },
+      {
+        "nmName": "Yarr the Pearleyed",
+        "nmId": 17498436,
+        "placeholders": [
+          {
+            "phId": 17498434,
+            "phName": "Lagoon Sahagin",
+            "lotteryChance": 10
+          }
+        ]
+      },
+      {
+        "nmName": "Zuug the Shoreleaper",
+        "nmId": 17498516,
+        "placeholders": [
+          {
+            "phId": 17498512,
+            "phName": "Delta Sahagin",
+            "lotteryChance": 10
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "zone": "Ship_bound_for_Mhaura",
+    "zoneId": 221,
+    "nms": [
+      {
+        "nmName": "Sea Horror",
+        "nmId": 17682446,
+        "placeholders": [
+          {
+            "phId": 17682442,
+            "phName": "Sea Monk",
+            "lotteryChance": 50
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "zone": "Ship_bound_for_Selbina",
+    "zoneId": 220,
+    "nms": [
+      {
+        "nmName": "Sea Horror",
+        "nmId": 17678350,
+        "placeholders": [
+          {
+            "phId": 17678346,
+            "phName": "Sea Monk",
+            "lotteryChance": 50
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "zone": "South_Gustaberg",
+    "zoneId": 107,
+    "nms": [
+      {
+        "nmName": "Carnero",
+        "nmId": 17215613,
+        "placeholders": [
+          {
+            "phId": 17215611,
+            "phName": "Ornery Sheep",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 17215612,
+            "phName": "Ornery Sheep",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 17215624,
+            "phName": "Ornery Sheep",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 17215625,
+            "phName": "Ornery Sheep",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 17215638,
+            "phName": "Ornery Sheep",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 17215645,
+            "phName": "Ornery Sheep",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 17215646,
+            "phName": "Ornery Sheep",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 17215648,
+            "phName": "Ornery Sheep",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 17215649,
+            "phName": "Ornery Sheep",
+            "lotteryChance": 5
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "zone": "Tahrongi_Canyon",
+    "zoneId": 117,
+    "nms": [
+      {
+        "nmName": "Herbage Hunter",
+        "nmId": 17256836,
+        "placeholders": [
+          {
+            "phId": 17256835,
+            "phName": "Canyon Crawler",
+            "lotteryChance": 10
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "zone": "Temple_of_Uggalepih",
+    "zoneId": 159,
+    "nms": [
+      {
+        "nmName": "Flauros",
+        "nmId": 17428737,
+        "placeholders": [
+          {
+            "phId": 17428740,
+            "phName": "Torama",
+            "lotteryChance": 10
+          }
+        ]
+      },
+      {
+        "nmName": "Sozu Sarberry",
+        "nmId": 17428554,
+        "placeholders": [
+          {
+            "phId": 17428551,
+            "phName": "Tonberry Cutter",
+            "lotteryChance": 10
+          }
+        ]
+      },
+      {
+        "nmName": "Sozu Terberry",
+        "nmId": 17428611,
+        "placeholders": [
+          {
+            "phId": 17428608,
+            "phName": "Tonberry Harrier",
+            "lotteryChance": 10
+          }
+        ]
+      },
+      {
+        "nmName": "Tonberry Kinq",
+        "nmId": 17428677,
+        "placeholders": [
+          {
+            "phId": 17428673,
+            "phName": "Tonberry Dismayer",
+            "lotteryChance": 10
+          },
+          {
+            "phId": 17428675,
+            "phName": "Tonberry Dismayer",
+            "lotteryChance": 10
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "zone": "The_Boyahda_Tree",
+    "zoneId": 153,
+    "nms": [
+      {
+        "nmName": "Aquarius",
+        "nmId": 17404000,
+        "placeholders": [
+          {
+            "phId": 17403993,
+            "phName": "Robber Crab",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 17403994,
+            "phName": "Robber Crab",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 17403995,
+            "phName": "Robber Crab",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 17403997,
+            "phName": "Robber Crab",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 17403998,
+            "phName": "Robber Crab",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 17403999,
+            "phName": "Robber Crab",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 17404002,
+            "phName": "Robber Crab",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 17404003,
+            "phName": "Robber Crab",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 17404004,
+            "phName": "Robber Crab",
+            "lotteryChance": 5
+          }
+        ]
+      },
+      {
+        "nmName": "Ellyllon",
+        "nmId": 17403939,
+        "placeholders": [
+          {
+            "phId": 17403938,
+            "phName": "Death Cap",
+            "lotteryChance": 10
+          }
+        ]
+      },
+      {
+        "nmName": "Leshonki",
+        "nmId": 17404300,
+        "placeholders": [
+          {
+            "phId": 17404293,
+            "phName": "Boyahda Sapling",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 17404294,
+            "phName": "Boyahda Sapling",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 17404295,
+            "phName": "Boyahda Sapling",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 17404296,
+            "phName": "Boyahda Sapling",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 17404302,
+            "phName": "Boyahda Sapling",
+            "lotteryChance": 5
+          }
+        ]
+      },
+      {
+        "nmName": "Unut",
+        "nmId": 17404029,
+        "placeholders": [
+          {
+            "phId": 17404016,
+            "phName": "Moss Eater",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 17404020,
+            "phName": "Moss Eater",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 17404027,
+            "phName": "Moss Eater",
+            "lotteryChance": 5
+          }
+        ]
+      },
+      {
+        "nmName": "Voluptuous Vivian",
+        "nmId": 17404331,
+        "placeholders": [
+          {
+            "phId": 17404330,
+            "phName": "Demonic Rose",
+            "lotteryChance": 10
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "zone": "The_Eldieme_Necropolis",
+    "zoneId": 195,
+    "nms": [
+      {
+        "nmName": "Cwn Cyrff",
+        "nmId": 17576054,
+        "placeholders": [
+          {
+            "phId": 17576050,
+            "phName": "Tomb Wolf",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 17576051,
+            "phName": "Tomb Wolf",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 17576052,
+            "phName": "Tomb Wolf",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 17576053,
+            "phName": "Tomb Wolf",
+            "lotteryChance": 5
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "zone": "The_Sanctuary_of_ZiTah",
+    "zoneId": 121,
+    "nms": [
+      {
+        "nmName": "Keeper of Halidom",
+        "nmId": 17272978,
+        "placeholders": [
+          {
+            "phId": 17272977,
+            "phName": "Goobbue Gardener",
+            "lotteryChance": 10
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "zone": "Toraimarai_Canal",
+    "zoneId": 169,
+    "nms": [
+      {
+        "nmName": "Canal Moocher",
+        "nmId": 17469578,
+        "placeholders": [
+          {
+            "phId": 17469575,
+            "phName": "Bouncing Ball",
+            "lotteryChance": 10
+          },
+          {
+            "phId": 17469576,
+            "phName": "Bouncing Ball",
+            "lotteryChance": 10
+          },
+          {
+            "phId": 17469577,
+            "phName": "Bouncing Ball",
+            "lotteryChance": 10
+          }
+        ]
+      },
+      {
+        "nmName": "Konjac",
+        "nmId": 17469632,
+        "placeholders": [
+          {
+            "phId": 17469629,
+            "phName": "Mousse",
+            "lotteryChance": 10
+          },
+          {
+            "phId": 17469630,
+            "phName": "Mousse",
+            "lotteryChance": 10
+          },
+          {
+            "phId": 17469631,
+            "phName": "Mousse",
+            "lotteryChance": 10
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "zone": "Uleguerand_Range",
+    "zoneId": 5,
+    "nms": [
+      {
+        "nmName": "Bonnacon",
+        "nmId": 16798056,
+        "placeholders": [
+          {
+            "phId": 16798050,
+            "phName": "Buffalo",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 16798051,
+            "phName": "Buffalo",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 16798052,
+            "phName": "Buffalo",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 16798053,
+            "phName": "Buffalo",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 16798054,
+            "phName": "Buffalo",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 16798055,
+            "phName": "Buffalo",
+            "lotteryChance": 5
+          }
+        ]
+      },
+      {
+        "nmName": "Magnotaur",
+        "nmId": 16797968,
+        "placeholders": [
+          {
+            "phId": 16797966,
+            "phName": "Molech",
+            "lotteryChance": 10
+          },
+          {
+            "phId": 16797967,
+            "phName": "Molech",
+            "lotteryChance": 10
+          }
+        ]
+      },
+      {
+        "nmName": "Skvader",
+        "nmId": 16797770,
+        "placeholders": [
+          {
+            "phId": 16797769,
+            "phName": "Polar Hare",
+            "lotteryChance": 10
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "zone": "Valkurm_Dunes",
+    "zoneId": 103,
+    "nms": [
+      {
+        "nmName": "Golden Bat",
+        "nmId": 17199564,
+        "placeholders": [
+          {
+            "phId": 17199561,
+            "phName": "Bogy"
+          },
+          {
+            "phId": 17199562,
+            "phName": "Giant Bat",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 17199563,
+            "phName": "Giant Bat",
+            "lotteryChance": 5
+          }
+        ]
+      },
+      {
+        "nmName": "Valkurm Emperor",
+        "nmId": 17199438,
+        "placeholders": [
+          {
+            "phId": 17199434,
+            "phName": "Damselfly",
+            "lotteryChance": 10
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "zone": "Vunkerl_Inlet_[S]",
+    "zoneId": 83,
+    "nms": [
+      {
+        "nmName": "Big Bang",
+        "nmId": 17117349,
+        "placeholders": [
+          {
+            "phId": 17117347,
+            "phName": "Ignis Djinn",
+            "lotteryChance": 10
+          },
+          {
+            "phId": 17117348,
+            "phName": "Ignis Djinn",
+            "lotteryChance": 10
+          }
+        ]
+      },
+      {
+        "nmName": "Pallas",
+        "nmId": 17117250,
+        "placeholders": [
+          {
+            "phId": 17117241,
+            "phName": "Gigas Helmsman",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 17117246,
+            "phName": "Gigas Helmsman",
+            "lotteryChance": 5
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "zone": "Wajaom_Woodlands",
+    "zoneId": 51,
+    "nms": [
+      {
+        "nmName": "Jaded Jody",
+        "nmId": 16986378,
+        "placeholders": [
+          {
+            "phId": 16986376,
+            "phName": "Great Ameretat",
+            "lotteryChance": 10
+          },
+          {
+            "phId": 16986390,
+            "phName": "Great Ameretat",
+            "lotteryChance": 10
+          }
+        ]
+      },
+      {
+        "nmName": "Zoraal Ja's Pkuucha",
+        "nmId": 16986197,
+        "placeholders": [
+          {
+            "phId": 16986191,
+            "phName": "Lesser Colibri",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 16986192,
+            "phName": "Lesser Colibri",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 16986193,
+            "phName": "Lesser Colibri",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 16986194,
+            "phName": "Lesser Colibri",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 16986195,
+            "phName": "Lesser Colibri",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 16986196,
+            "phName": "Lesser Colibri",
+            "lotteryChance": 5
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "zone": "West_Ronfaure",
+    "zoneId": 100,
+    "nms": [
+      {
+        "nmName": "Fungus Beetle",
+        "nmId": 17187047,
+        "placeholders": [
+          {
+            "phId": 17187026,
+            "phName": "Scarab Beetle",
+            "lotteryChance": 10
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "zone": "West_Sarutabaruta",
+    "zoneId": 115,
+    "nms": [
+      {
+        "nmName": "Nunyenunc",
+        "nmId": 17248517,
+        "placeholders": [
+          {
+            "phId": 17248514,
+            "phName": "Carrion Crow",
+            "lotteryChance": 10
+          },
+          {
+            "phId": 17248515,
+            "phName": "Carrion Crow",
+            "lotteryChance": 10
+          },
+          {
+            "phId": 17248516,
+            "phName": "Carrion Crow",
+            "lotteryChance": 10
+          }
+        ]
+      },
+      {
+        "nmName": "Tom Tit Tat",
+        "nmId": 17248468,
+        "placeholders": [
+          {
+            "phId": 17248466,
+            "phName": "Mandragora",
+            "lotteryChance": 10
+          },
+          {
+            "phId": 17248467,
+            "phName": "Mandragora",
+            "lotteryChance": 10
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "zone": "West_Sarutabaruta_[S]",
+    "zoneId": 95,
+    "nms": [
+      {
+        "nmName": "Jeduah",
+        "nmId": 17166543,
+        "placeholders": [
+          {
+            "phId": 17166542,
+            "phName": "Tiny Lycopodium",
+            "lotteryChance": 10
+          }
+        ]
+      },
+      {
+        "nmName": "Ramponneau",
+        "nmId": 17166705,
+        "placeholders": [
+          {
+            "phId": 17166701,
+            "phName": "Toad",
+            "lotteryChance": 20
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "zone": "Western_Altepa_Desert",
+    "zoneId": 125,
+    "nms": [
+      {
+        "nmName": "Cactuar Cantautor",
+        "nmId": 17289560,
+        "placeholders": [
+          {
+            "phId": 17289559,
+            "phName": "Cactuar",
+            "lotteryChance": 5
+          }
+        ]
+      },
+      {
+        "nmName": "Calchas",
+        "nmId": 17289547,
+        "placeholders": [
+          {
+            "phId": 17289545,
+            "phName": "Tulwar Scorpion",
+            "lotteryChance": 10
+          }
+        ]
+      },
+      {
+        "nmName": "Celphie",
+        "nmId": 17289453,
+        "placeholders": [
+          {
+            "phId": 17289452,
+            "phName": "Desert Dhalmel",
+            "lotteryChance": 10
+          }
+        ]
+      },
+      {
+        "nmName": "Picolaton",
+        "nmId": 17289638,
+        "placeholders": [
+          {
+            "phId": 17289637,
+            "phName": "Phorusrhacos",
+            "lotteryChance": 10
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "zone": "Xarcabard",
+    "zoneId": 112,
+    "nms": [
+      {
+        "nmName": "Barbaric Weapon",
+        "nmId": 17236027,
+        "placeholders": [
+          {
+            "phId": 17236026,
+            "phName": "Cursed Weapon",
+            "lotteryChance": 10
+          }
+        ]
+      },
+      {
+        "nmName": "Shadow Eye",
+        "nmId": 17236180,
+        "placeholders": [
+          {
+            "phId": 17236174,
+            "phName": "Evil Eye",
+            "lotteryChance": 5
+          }
+        ]
+      },
+      {
+        "nmName": "Timeworn Warrior",
+        "nmId": 17236045,
+        "placeholders": [
+          {
+            "phId": 17236041,
+            "phName": "Lost Soul",
+            "lotteryChance": 5
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "zone": "Xarcabard_[S]",
+    "zoneId": 137,
+    "nms": [
+      {
+        "nmName": "Graoully",
+        "nmId": 17338386,
+        "placeholders": [
+          {
+            "phId": 17338384,
+            "phName": "Dire Gargouille",
+            "lotteryChance": 10
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "zone": "Yughott_Grotto",
+    "zoneId": 142,
+    "nms": [
+      {
+        "nmName": "Ashmaker Gotblut",
+        "nmId": 17358932,
+        "placeholders": [
+          {
+            "phId": 17358913,
+            "phName": "Orcish Grunt",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 17358920,
+            "phName": "Orcish Grunt",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 17358925,
+            "phName": "Orcish Grunt",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 17358926,
+            "phName": "Orcish Stonechucker",
+            "lotteryChance": 5
+          },
+          {
+            "phId": 17358929,
+            "phName": "Orcish Stonechucker",
+            "lotteryChance": 5
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "zone": "Yuhtunga_Jungle",
+    "zoneId": 123,
+    "nms": [
+      {
+        "nmName": "Mischievous Micholas",
+        "nmId": 17281149,
+        "placeholders": [
+          {
+            "phId": 17281148,
+            "phName": "Young Opo-opo",
+            "lotteryChance": 20
+          }
+        ]
+      }
+    ]
+  }
+]
