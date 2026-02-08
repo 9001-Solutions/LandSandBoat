@@ -120,6 +120,13 @@ MOD_DEF = 1
 MOD_ACC = 25
 MOD_EVA = 68
 
+# Mod name -> ID mapping for Lua override parsing
+MOD_NAME_TO_ID = {
+    'DEF': 1, 'STR': 8, 'DEX': 9, 'VIT': 10, 'AGI': 11,
+    'INT': 12, 'MND': 13, 'CHR': 14, 'ATT': 23, 'ACC': 25,
+    'ATTP': 62, 'DEFP': 63, 'EVA': 68,
+}
+
 # ---------------------------------------------------------------------------
 # SQL parsing (reused from export_gear_json.py)
 # ---------------------------------------------------------------------------
@@ -518,6 +525,156 @@ def compute_stats(mlvl, mjob, sjob, family, zone_id, hp_override, mp_override,
 
 
 # ---------------------------------------------------------------------------
+# AirSkyBoat Lua override parsing
+# ---------------------------------------------------------------------------
+
+def extract_spawn_mods(filepath):
+    """Extract setMod/addMod calls from onMobSpawn/onMobInitialize in a Lua file.
+
+    Only extracts from the top-level of spawn/init functions (depth 1),
+    skipping nested callbacks (timers, listeners).
+    Returns [(method, mod_name, value), ...] where method is 'set' or 'add'.
+    """
+    ops = []
+    mod_re = re.compile(r'mob:(set|add)Mod\(xi\.mod\.(\w+)\s*,\s*(-?\d+)\)')
+    section_re = re.compile(r'entity\.onMob(?:Spawn|Initialize)\s*=\s*function')
+    block_open_re = re.compile(r'\b(?:function|if|for|while)\b')
+    block_close_re = re.compile(r'\bend\b')
+
+    try:
+        with open(filepath, 'r', encoding='utf-8', errors='ignore') as f:
+            lines = f.readlines()
+    except OSError:
+        return ops
+
+    in_section = False
+    depth = 0
+
+    for line in lines:
+        stripped = line.strip()
+        if stripped.startswith('--'):
+            continue
+
+        if not in_section:
+            if section_re.search(stripped):
+                in_section = True
+                depth = 1
+                continue
+        else:
+            opens = len(block_open_re.findall(stripped))
+            closes = len(block_close_re.findall(stripped))
+            depth += opens - closes
+
+            if depth <= 0:
+                in_section = False
+                depth = 0
+                continue
+
+            if depth == 1:
+                for m in mod_re.finditer(stripped):
+                    mod_name = m.group(2)
+                    if mod_name in MOD_NAME_TO_ID:
+                        ops.append((m.group(1), mod_name, int(m.group(3))))
+
+    return ops
+
+
+def parse_asb_overrides(asb_root):
+    """Parse AirSkyBoat mob Lua scripts for setMod/addMod overrides.
+
+    Returns {(zone_name, pool_name): [(method, mod_name, value), ...]}
+    """
+    overrides = {}
+    scripts_dir = os.path.join(asb_root, 'scripts', 'zones')
+
+    if not os.path.isdir(scripts_dir):
+        print(f'  WARNING: AirSkyBoat scripts dir not found: {scripts_dir}')
+        return overrides
+
+    for zone_dir in sorted(os.listdir(scripts_dir)):
+        mobs_dir = os.path.join(scripts_dir, zone_dir, 'mobs')
+        if not os.path.isdir(mobs_dir):
+            continue
+        for mob_file in os.listdir(mobs_dir):
+            if not mob_file.endswith('.lua'):
+                continue
+            mob_name = mob_file[:-4]
+            filepath = os.path.join(mobs_dir, mob_file)
+            ops = extract_spawn_mods(filepath)
+            if ops:
+                overrides[(zone_dir, mob_name)] = ops
+
+    return overrides
+
+
+def compute_stats_with_overrides(mlvl, mjob, sjob, family, zone_id, hp_override,
+                                  mp_override, skill_caps, skill_ranks,
+                                  sql_mods, lua_ops):
+    """Compute mob stats with AirSkyBoat Lua overrides applied.
+
+    Replicates the C++ runtime behavior:
+      1. restoreModifiers() -> m_modStat = SQL mods
+      2. addModifier(ATT/DEF/ACC/EVA, computedBase)
+      3. Lua setMod/addMod from onMobSpawn
+      4. Final stats = computed + m_modStat
+    """
+    base = compute_stats(mlvl, mjob, sjob, family, zone_id, hp_override, mp_override,
+                         skill_caps, skill_ranks)
+
+    # Initialize m_modStat from SQL mods
+    m_mod = {}
+    for name, mid in MOD_NAME_TO_ID.items():
+        m_mod[name] = sql_mods.get(mid, 0)
+
+    # Add computed combat bases (replicates C++ addModifier calls in CalculateMobStats)
+    m_mod['ATT'] += base['baseATT']
+    m_mod['DEF'] += base['baseDEF']
+    m_mod['ACC'] += base['baseACC']
+    m_mod['EVA'] += base['baseEVA']
+
+    # Replay Lua operations in order
+    for method, mod_name, value in lua_ops:
+        if mod_name not in m_mod:
+            continue
+        if method == 'set':
+            m_mod[mod_name] = value
+        else:
+            m_mod[mod_name] += value
+
+    # Build result with stat mods applied
+    result = {}
+    for stat in ('STR', 'DEX', 'VIT', 'AGI', 'INT', 'MND', 'CHR'):
+        result[stat] = base[stat] + m_mod.get(stat, 0)
+
+    result['HP'] = base['HP']
+    result['MP'] = base['MP']
+    result['baseATT'] = base['baseATT']
+    result['baseACC'] = base['baseACC']
+    result['baseDEF'] = base['baseDEF']
+    result['baseEVA'] = base['baseEVA']
+
+    # Total combat stats using m_modStat (replicates battleentity.cpp)
+    result['totalAttack'] = max(1, 8 + m_mod['ATT'] + int(math.floor(result['STR'] * 0.5)))
+    result['totalDefense'] = max(1, 8 + int(math.floor(result['VIT'] * 0.5)) + m_mod['DEF'])
+    result['totalAccuracy'] = max(1, m_mod['ACC'] + int(math.floor(result['DEX'] / 2)))
+    result['totalEvasion'] = max(1, m_mod['EVA'] + int(math.floor(result['AGI'] / 2)))
+
+    # ATTP/DEFP percentage modifiers
+    attp = m_mod.get('ATTP', 0)
+    defp = m_mod.get('DEFP', 0)
+    if attp:
+        result['totalAttack'] += result['totalAttack'] * attp // 100
+    if defp:
+        result['totalDefense'] += result['totalDefense'] * defp // 100
+
+    # AccTarget95
+    level_penalty = max(mlvl - 75, 0) * 4
+    result['accTarget95'] = result['totalEvasion'] + 40 + level_penalty
+
+    return result
+
+
+# ---------------------------------------------------------------------------
 # SQL table parsers
 # ---------------------------------------------------------------------------
 
@@ -719,6 +876,10 @@ def main():
         '--output', type=str, default=None,
         help='Output file path (default: tools/mob_stats.json)'
     )
+    parser.add_argument(
+        '--asb-path', type=str, default=None,
+        help='Path to AirSkyBoat repo root for NM Lua overrides (outputs mob_stats_asb.json)'
+    )
     args = parser.parse_args()
 
     repo_root = os.path.normpath(os.path.join(os.path.dirname(__file__), '..'))
@@ -756,6 +917,7 @@ def main():
     # Merge level ranges when multiple spawn points use the same pool in a zone
     zone_data = {}
     seen_ranges = set()  # (zone_id, pool_id, min_lvl, max_lvl) dedup
+    nm_info = {}  # (zone_name, pool_name_raw) -> NM parameters for ASB pass
 
     mob_count = 0
     skipped = 0
@@ -795,7 +957,7 @@ def main():
             continue
 
         zone_name = zones.get(zone_id, f'Zone_{zone_id}')
-        mob_name = pool['name'].replace('_', ' ')
+        mob_name = spawn['polutils_name']
         mjob = pool['mJob']
         sjob = pool['sJob']
         mob_type = pool['mobType']
@@ -819,6 +981,18 @@ def main():
                 'zone_id': zone_id,
                 'mobs': {},
             }
+
+        # Disambiguate when different pools share the same client name in a zone
+        existing = zone_data[zone_name]['mobs'].get(mob_name)
+        if existing and existing['pool_id'] != pool_id:
+            # Rename the first entry to include its job suffix too
+            first_job = existing['main_job']
+            renamed = f"{mob_name} ({first_job})"
+            if renamed not in zone_data[zone_name]['mobs']:
+                zone_data[zone_name]['mobs'][renamed] = zone_data[zone_name]['mobs'].pop(mob_name)
+            # Suffix the current entry
+            job_suffix = f" ({JOB_ABBREVS.get(mjob, f'JOB_{mjob}')})"
+            mob_name = mob_name + job_suffix
 
         if mob_name not in zone_data[zone_name]['mobs']:
             zone_data[zone_name]['mobs'][mob_name] = {
@@ -863,6 +1037,22 @@ def main():
 
             existing_levels[str(lvl)] = stats
 
+        # Collect NM info for ASB override pass
+        if is_nm and args.asb_path:
+            nm_key = (zone_name, pool['name'])
+            if nm_key not in nm_info:
+                nm_info[nm_key] = {
+                    'mjob': mjob, 'sjob': sjob, 'family': family,
+                    'zone_id': zone_id, 'hp_override': hp_override,
+                    'mp_override': mp_override, 'sql_mods': dict(mods),
+                    'pool_id': pool_id, 'family_name': family['family_name'],
+                    'mob_name_display': mob_name,
+                    'main_job': JOB_ABBREVS.get(mjob, f'JOB_{mjob}'),
+                    'sub_job': JOB_ABBREVS.get(sjob, f'JOB_{sjob}'),
+                    'levels': set(),
+                }
+            nm_info[nm_key]['levels'].update(range(max(min_lvl, 1), max_lvl + 1))
+
     # Sort zones alphabetically
     sorted_zones = dict(sorted(zone_data.items()))
 
@@ -882,6 +1072,69 @@ def main():
     print(f'Wrote {mob_count} unique mobs across {len(sorted_zones)} zones to {output_path}')
     if skipped:
         print(f'  ({skipped} spawn points skipped due to missing data or level 0)')
+
+    # ----- AirSkyBoat NM override pass -----
+    if args.asb_path:
+        print('\nParsing AirSkyBoat Lua overrides...')
+        asb_overrides = parse_asb_overrides(args.asb_path)
+        print(f'  Found overrides in {len(asb_overrides)} mob scripts')
+
+        asb_zone_data = {}
+        asb_mob_count = 0
+        override_count = 0
+
+        for (zone_name, pool_name_raw), info in sorted(nm_info.items()):
+            lua_ops = asb_overrides.get((zone_name, pool_name_raw), [])
+
+            mob_entry = {
+                'pool_id': info['pool_id'],
+                'family': info['family_name'],
+                'is_nm': True,
+                'main_job': info['main_job'],
+                'sub_job': info['sub_job'],
+                'has_overrides': bool(lua_ops),
+                'levels': {},
+            }
+            if lua_ops:
+                mob_entry['overrides'] = [
+                    {'method': m, 'mod': n, 'value': v} for m, n, v in lua_ops
+                ]
+                override_count += 1
+
+            for lvl in sorted(info['levels']):
+                stats = compute_stats_with_overrides(
+                    lvl, info['mjob'], info['sjob'], info['family'],
+                    info['zone_id'], info['hp_override'], info['mp_override'],
+                    skill_caps, skill_ranks_data, info['sql_mods'], lua_ops
+                )
+                mob_entry['levels'][str(lvl)] = stats
+
+            if zone_name not in asb_zone_data:
+                asb_zone_data[zone_name] = {'zone_id': info['zone_id'], 'mobs': {}}
+            asb_zone_data[zone_name]['mobs'][info['mob_name_display']] = mob_entry
+            asb_mob_count += 1
+
+        sorted_asb_zones = dict(sorted(asb_zone_data.items()))
+
+        asb_output = {
+            'metadata': {
+                'generated': datetime.now(timezone.utc).isoformat(),
+                'note': 'NMs only, with AirSkyBoat Lua onMobSpawn/onMobInitialize overrides applied',
+                'base_data': 'LandSandBoat SQL',
+                'override_source': os.path.abspath(args.asb_path),
+                'nm_count': asb_mob_count,
+                'nms_with_overrides': override_count,
+                'zone_count': len(sorted_asb_zones),
+            },
+            'zones': sorted_asb_zones,
+        }
+
+        asb_output_path = os.path.join(os.path.dirname(output_path), 'mob_stats_asb.json')
+        with open(asb_output_path, 'w', encoding='utf-8') as f:
+            json.dump(asb_output, f, indent=2, ensure_ascii=False)
+
+        print(f'Wrote {asb_mob_count} NMs ({override_count} with overrides) '
+              f'across {len(sorted_asb_zones)} zones to {asb_output_path}')
 
 
 if __name__ == '__main__':
