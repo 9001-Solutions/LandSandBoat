@@ -507,6 +507,13 @@ def compute_stats(mlvl, mjob, sjob, family, zone_id, hp_override, mp_override,
     # EVA = max(1, base_eva + floor(AGI / 2))
     result['totalEvasion'] = max(1, base_eva + int(math.floor(result['AGI'] / 2)))
 
+    # Accuracy target for a level 75 player to reach 95% hit rate.
+    # physical_hit_rate.lua: hitrate = (75 + (acc - eva) / 2) / 100
+    # Level correction: if player_lvl < mob_lvl, acc += (player_lvl - mob_lvl) * 4
+    # Solving for 95%: player_acc = mob_eva + 40 + max(mob_lvl - 75, 0) * 4
+    level_penalty = max(mlvl - 75, 0) * 4
+    result['accTarget95'] = result['totalEvasion'] + 40 + level_penalty
+
     return result
 
 
