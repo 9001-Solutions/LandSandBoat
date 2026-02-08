@@ -939,12 +939,6 @@ def main():
 
         pool_id = group['poolid']
 
-        # Skip exact duplicate spawn ranges (same pool, same levels, same zone)
-        dedup_key = (zone_id, pool_id, min_lvl, max_lvl)
-        if dedup_key in seen_ranges:
-            continue
-        seen_ranges.add(dedup_key)
-
         pool = pools.get(pool_id)
         if pool is None:
             skipped += 1
@@ -1001,6 +995,7 @@ def main():
                 'is_nm': is_nm,
                 'main_job': JOB_ABBREVS.get(mjob, f'JOB_{mjob}'),
                 'sub_job': JOB_ABBREVS.get(sjob, f'JOB_{sjob}'),
+                'mobids': [],
                 'levels': {},
             }
             if mods:
@@ -1009,7 +1004,38 @@ def main():
                 }
             mob_count += 1
 
-        existing_levels = zone_data[zone_name]['mobs'][mob_name]['levels']
+        # Always collect mobid
+        mob_entry = zone_data[zone_name]['mobs'][mob_name]
+        mob_id = spawn['mobid']
+        if mob_id not in mob_entry['mobids']:
+            mob_entry['mobids'].append(mob_id)
+
+        # Collect NM info for ASB override pass
+        if is_nm and args.asb_path:
+            nm_key = (zone_name, pool['name'])
+            if nm_key not in nm_info:
+                nm_info[nm_key] = {
+                    'mjob': mjob, 'sjob': sjob, 'family': family,
+                    'zone_id': zone_id, 'hp_override': hp_override,
+                    'mp_override': mp_override, 'sql_mods': dict(mods),
+                    'pool_id': pool_id, 'family_name': family['family_name'],
+                    'mob_name_display': mob_name,
+                    'main_job': JOB_ABBREVS.get(mjob, f'JOB_{mjob}'),
+                    'sub_job': JOB_ABBREVS.get(sjob, f'JOB_{sjob}'),
+                    'mobids': [],
+                    'levels': set(),
+                }
+            if mob_id not in nm_info[nm_key]['mobids']:
+                nm_info[nm_key]['mobids'].append(mob_id)
+            nm_info[nm_key]['levels'].update(range(max(min_lvl, 1), max_lvl + 1))
+
+        # Skip stats computation for duplicate spawn ranges
+        dedup_key = (zone_id, pool_id, min_lvl, max_lvl)
+        if dedup_key in seen_ranges:
+            continue
+        seen_ranges.add(dedup_key)
+
+        existing_levels = mob_entry['levels']
 
         # Compute stats for each level in this spawn's range
         for lvl in range(max(min_lvl, 1), max_lvl + 1):
@@ -1036,22 +1062,6 @@ def main():
                 stats['totalEvasion'] = max(1, stats['totalEvasion'] + eva_mod)
 
             existing_levels[str(lvl)] = stats
-
-        # Collect NM info for ASB override pass
-        if is_nm and args.asb_path:
-            nm_key = (zone_name, pool['name'])
-            if nm_key not in nm_info:
-                nm_info[nm_key] = {
-                    'mjob': mjob, 'sjob': sjob, 'family': family,
-                    'zone_id': zone_id, 'hp_override': hp_override,
-                    'mp_override': mp_override, 'sql_mods': dict(mods),
-                    'pool_id': pool_id, 'family_name': family['family_name'],
-                    'mob_name_display': mob_name,
-                    'main_job': JOB_ABBREVS.get(mjob, f'JOB_{mjob}'),
-                    'sub_job': JOB_ABBREVS.get(sjob, f'JOB_{sjob}'),
-                    'levels': set(),
-                }
-            nm_info[nm_key]['levels'].update(range(max(min_lvl, 1), max_lvl + 1))
 
     # Sort zones alphabetically
     sorted_zones = dict(sorted(zone_data.items()))
@@ -1092,6 +1102,7 @@ def main():
                 'is_nm': True,
                 'main_job': info['main_job'],
                 'sub_job': info['sub_job'],
+                'mobids': info['mobids'],
                 'has_overrides': bool(lua_ops),
                 'levels': {},
             }
