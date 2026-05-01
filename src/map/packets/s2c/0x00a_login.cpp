@@ -136,7 +136,7 @@ GP_SERV_COMMAND_LOGIN::GP_SERV_COMMAND_LOGIN(CCharEntity* PChar, const EventInfo
     flags2 |= static_cast<uint32_t>(PChar->GetGender() * 128 + (1 << PChar->look.size)) << 8;
 
     packet.PosHead = {
-        .UniqueNo      = PChar->id,
+        .UniqueNo      = PChar->accid,
         .ActIndex      = PChar->targid,
         .dir           = static_cast<int8_t>(PChar->loc.p.rotation),
         .x             = PChar->loc.p.x,

@@ -243,12 +243,12 @@ std::list<SearchEntity*> CDataLoader::GetPlayersList(search_req sr, int* count)
     }
 
     std::string fmtQuery =
-        "SELECT charid, partyid, charname, pos_zone, pos_prevzone, nation, rank_sandoria, rank_bastok, unity_leader, "
+        "SELECT chars.charid, chars.accid, partyid, charname, pos_zone, pos_prevzone, nation, rank_sandoria, rank_bastok, unity_leader, "
         "rank_windurst, race, mjob, sjob, mlvl, slvl, languages, settings, seacom_type, disconnecting, gmHiddenEnabled, muted, "
         "linkshellid1, linkshellid2 "
-        "FROM accounts_sessions "
+        "FROM chars "
+        "LEFT JOIN accounts_sessions USING (charid) "
         "LEFT JOIN accounts_parties USING (charid) "
-        "LEFT JOIN chars USING (charid) "
         "LEFT JOIN char_look USING (charid) "
         "LEFT JOIN char_stats USING (charid) "
         "LEFT JOIN char_profile USING(charid) "
@@ -269,7 +269,11 @@ std::list<SearchEntity*> CDataLoader::GetPlayersList(search_req sr, int* count)
 
             PPlayer->name = rset->get<std::string>("charname");
 
-            PPlayer->id       = rset->get<uint32>("charid");
+            // SEARCH_ID is the account_id (not charid). FFXi reads this into
+            // the friend dialog row's account_id_hi field, which the polcore
+            // befriend submit copies into wire packet body[0..3]. Using charid
+            // here would put the wrong identifier on the wire.
+            PPlayer->id       = rset->get<uint32>("accid");
             PPlayer->zone     = rset->get<uint16>("pos_zone");
             PPlayer->prevzone = rset->get<uint16>("pos_prevzone");
             PPlayer->nation   = rset->get<uint8>("nation");
@@ -304,9 +308,12 @@ std::list<SearchEntity*> CDataLoader::GetPlayersList(search_req sr, int* count)
             PPlayer->zone          = (PPlayer->zone == 0 ? PPlayer->prevzone : PPlayer->zone);
             PPlayer->languages     = rset->get<uint8>("languages");
             PPlayer->mentor        = playerSettings.MentorFlg;
-            PPlayer->linkshellid1  = rset->get<uint32>("linkshellid1");
-            PPlayer->linkshellid2  = rset->get<uint32>("linkshellid2");
-            PPlayer->seacom_type   = rset->get<uint8>("seacom_type");
+            // linkshellid1/2, seacom_type live in accounts_sessions which is
+            // a LEFT JOIN now (so /befriend works for offline targets) — they
+            // may be NULL when the character is offline.
+            PPlayer->linkshellid1  = rset->getOrDefault<uint32>("linkshellid1", 0);
+            PPlayer->linkshellid2  = rset->getOrDefault<uint32>("linkshellid2", 0);
+            PPlayer->seacom_type   = rset->getOrDefault<uint8>("seacom_type", 0);
             PPlayer->disconnecting = rset->get<bool>("disconnecting");
             PPlayer->gmHidden      = rset->get<bool>("gmHiddenEnabled");
             PPlayer->muted         = rset->get<bool>("muted");

@@ -28,6 +28,7 @@ xi.settings.network =
 
     MAP_PORT = 54230,
 
+    SEARCH_IP   = '127.0.0.1',
     SEARCH_PORT = 54002,
 
     -- DB queries will attempt each query once, and reconnect and retry up to `SQL_QUERY_RETRY_COUNT` times.

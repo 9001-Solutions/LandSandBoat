@@ -345,7 +345,7 @@ void data_session::read_func()
                 characterSelectionResponse.server_ip   = ZoneIP;
                 characterSelectionResponse.server_port = ZonePort;
 
-                characterSelectionResponse.cache_ip   = session.serverIP; // search-server ip
+                characterSelectionResponse.cache_ip   = str2ip(settings::get<std::string>("network.SEARCH_IP"));
                 characterSelectionResponse.cache_port = settings::get<uint16>("network.SEARCH_PORT");
 
                 char strCharName[PacketNameLength] = {}; // 15 characters + null terminator

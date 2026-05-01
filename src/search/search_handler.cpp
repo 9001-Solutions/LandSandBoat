@@ -232,6 +232,17 @@ inline std::string searchTypeToString(uint8 type)
 
 void SearchHandler::read_func(uint16_t length)
 {
+    // FFXi sends a 16-byte "hello" packet (type 0x10 with IXFF magic at +0x04)
+    // immediately after connect, before any query. It expects no response —
+    // the server just needs to keep the connection open. Detect and accept
+    // before the length < 28 check would reject it as malformed.
+    constexpr uint32_t IXFF_MAGIC = 0x46465849; // 'IXFF' little-endian
+    if (length == 16 && ref<uint32>(buffer_.data(), 0x04) == IXFF_MAGIC)
+    {
+        DebugSocketsFmt("Search hello (16B IXFF) from {}", ipAddress_);
+        return;
+    }
+
     if (length != ref<uint16>(buffer_.data(), 0x00) || length < 28)
     {
         ShowErrorFmt("Search packetsize wrong. Size {} should be {}.", length, ref<uint16>(buffer_.data(), 0x00));
